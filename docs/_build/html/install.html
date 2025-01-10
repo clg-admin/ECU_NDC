@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Installation &mdash; ECU_NDC  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=5929fcd5"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Getting Started" href="gettingstart.html" />
+    <link rel="prev" title="Welcome to MOMF Documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            ECU_NDC
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#clone-repository">Clone Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dependencies">Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-python-packages">Install Python Packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#test-installation-of-solvers">Test Installation of Solvers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#glpk-test">GLPK Test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cbc-test">CBC Test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cplex-test">CPLEX Test</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gettingstart.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Authors</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ECU_NDC</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Installation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/install.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Link to this heading"></a></h1>
+<section id="clone-repository">
+<h2>Clone Repository<a class="headerlink" href="#clone-repository" title="Link to this heading"></a></h2>
+<p>All source code for MOMF is available in a <a class="reference external" href="https://github.com/clg-admin/MOMF">GitHub repository</a>.</p>
+<p>To clone the repository using <strong>HTTPS</strong>, use the command below:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/clg-admin/MOMF.git
+</pre></div>
+</div>
+</section>
+<section id="dependencies">
+<h2>Dependencies<a class="headerlink" href="#dependencies" title="Link to this heading"></a></h2>
+<p>MOMF utilizes a variety of tools. We encourage you
+to explore the following key programs and packages
+that are integral to our processes:</p>
+<dl class="simple">
+<dt><a class="reference external" href="https://www.python.org/downloads/">Python</a></dt><dd><p>Utilized for all data processing tasks within
+the Python programming language.</p>
+</dd>
+<dt><a class="reference external" href="https://github.com/OSeMOSYS/otoole">otoole</a></dt><dd><p>A Python-based command line tool for managing
+OSeMOSYS data models.</p>
+</dd>
+<dt><a class="reference external" href="https://www.gnu.org/software/glpk/">GLPK</a></dt><dd><p>An open-source toolkit for linear programming.</p>
+</dd>
+<dt><a class="reference external" href="https://github.com/coin-or/Cbc">CBC</a></dt><dd><p>An open-source solver for linear programming problems.</p>
+</dd>
+<dt><a class="reference external" href="https://visualstudio.microsoft.com/downloads/">Microsoft Visual C++ Build Tools</a></dt><dd><p>During installation, select “Desktop development with
+C++” to include all necessary tools.
+Ensure “MSVC v142 - VS 2019 C++ x64/x86 build tools”
+and “Windows 10 SDK” are checked.
+Is optional but usually is needed to use CBC in Windows.</p>
+</dd>
+</dl>
+</section>
+<section id="install-python-packages">
+<h2>Install Python Packages<a class="headerlink" href="#install-python-packages" title="Link to this heading"></a></h2>
+<p>After clone the repository you can find a python script
+name <cite>install_requirements.py</cite>, you need to execute it
+to install all packages the method need.
+If you prefer you could install one by one through shell
+with the command <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">name_package</span></code>. In the
+following list you could find every pckage you need:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>pandas
+numpy
+PyYAML
+scipy
+pyDOE
+xlsxwriter
+xlrd
+</pre></div>
+</div>
+</section>
+<section id="test-installation-of-solvers">
+<h2>Test Installation of Solvers<a class="headerlink" href="#test-installation-of-solvers" title="Link to this heading"></a></h2>
+<p>MOMF is compatible with multiple solvers; among them are
+<a class="reference external" href="https://www.gnu.org/software/glpk/">GLPK</a>,
+<a class="reference external" href="https://github.com/coin-or/Cbc">CBC</a>, and
+<a class="reference external" href="https://www.ibm.com/analytics/cplex-optimizer">CPLEX</a>.
+OSeMOSYS particularly employs <cite>GLPK</cite> for generating
+solver-independent linear programming files.</p>
+<section id="glpk-test">
+<h3>GLPK Test<a class="headerlink" href="#glpk-test" title="Link to this heading"></a></h3>
+<p><a class="reference external" href="https://www.gnu.org/software/glpk/">GNU GLPK</a> is a freely available package for linear programming that <strong>comes pre-installed with the environment</strong>. OSeMOSYS utilizes it for generating linear programming files. Verify its installation by executing <cite>glpsol</cite> in your terminal, which should display the following message confirming that GLPK is properly installed:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>~/<span class="w"> </span>$<span class="w"> </span>glpsol
+
+GLPSOL:<span class="w"> </span>GLPK<span class="w"> </span>LP/MIP<span class="w"> </span>Solver,<span class="w"> </span>v4.65
+No<span class="w"> </span>input<span class="w"> </span>problem<span class="w"> </span>file<span class="w"> </span>specified<span class="p">;</span><span class="w"> </span>try<span class="w"> </span>glpsol<span class="w"> </span>--help
+</pre></div>
+</div>
+</section>
+<section id="cbc-test">
+<h3>CBC Test<a class="headerlink" href="#cbc-test" title="Link to this heading"></a></h3>
+<p><a class="reference external" href="https://github.com/coin-or/Cbc">CBC</a> is an open-source linear program solver that <strong>is also installed with the environment</strong>. To check its installation, run <cite>cbc</cite> in the terminal. You should see the following output confirming CBC’s installation:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>~/<span class="w"> </span>$<span class="w"> </span>cbc
+
+Welcome<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>CBC<span class="w"> </span>MILP<span class="w"> </span>Solver
+Version:<span class="w"> </span>devel
+Build<span class="w"> </span>Date:<span class="w"> </span>Apr<span class="w"> </span><span class="m">27</span><span class="w"> </span><span class="m">2021</span>
+
+CoinSolver<span class="w"> </span>takes<span class="w"> </span>input<span class="w"> </span>from<span class="w"> </span>arguments<span class="w"> </span><span class="o">(</span><span class="w"> </span>-<span class="w"> </span>switches<span class="w"> </span>to<span class="w"> </span>stdin<span class="o">)</span>
+Enter<span class="w"> </span>?<span class="w"> </span><span class="k">for</span><span class="w"> </span>list<span class="w"> </span>of<span class="w"> </span>commands<span class="w"> </span>or<span class="w"> </span><span class="nb">help</span>
+Coin:
+</pre></div>
+</div>
+<p>To install a different version of CBC, refer to the <a class="reference external" href="https://github.com/coin-or/Cbc#download">installation instructions</a> on CBC’s GitHub page.</p>
+</section>
+<section id="cplex-test">
+<h3>CPLEX Test<a class="headerlink" href="#cplex-test" title="Link to this heading"></a></h3>
+<p>Academic researchers or students may be eligible for IBM’s CPLEX optimizer through an <a class="reference external" href="https://www.ibm.com/academic/topic/data-science">academic license</a>. Otherwise, a <a class="reference external" href="https://www.ibm.com/support/pages/downloading-ibm-ilog-cplex-optimization-studio-v1290">commercial license</a> will be necessary. After installation, verify by running <cite>cplex</cite> in the command line. The following output should appear, indicating a successful installation:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>~/<span class="w"> </span>$<span class="w"> </span>cplex
+
+Welcome<span class="w"> </span>to<span class="w"> </span>IBM<span class="o">(</span>R<span class="o">)</span><span class="w"> </span>ILOG<span class="o">(</span>R<span class="o">)</span><span class="w"> </span>CPLEX<span class="o">(</span>R<span class="o">)</span><span class="w"> </span>Interactive<span class="w"> </span>Optimizer<span class="w"> </span><span class="m">22</span>.1.1.0
+<span class="w">  </span>with<span class="w"> </span>Simplex,<span class="w"> </span>Mixed<span class="w"> </span>Integer<span class="w"> </span><span class="p">&amp;</span><span class="w"> </span>Barrier<span class="w"> </span>Optimizers
+<span class="m">5725</span>-A06<span class="w"> </span><span class="m">5725</span>-A29<span class="w"> </span><span class="m">5724</span>-Y48<span class="w"> </span><span class="m">5724</span>-Y49<span class="w"> </span><span class="m">5724</span>-Y54<span class="w"> </span><span class="m">5724</span>-Y55<span class="w"> </span><span class="m">5655</span>-Y21
+Copyright<span class="w"> </span>IBM<span class="w"> </span>Corp.<span class="w"> </span><span class="m">1988</span>,<span class="w"> </span><span class="m">2022</span>.<span class="w">  </span>All<span class="w"> </span>Rights<span class="w"> </span>Reserved.
+
+Type<span class="w"> </span><span class="s1">&#39;help&#39;</span><span class="w"> </span><span class="k">for</span><span class="w"> </span>a<span class="w"> </span>list<span class="w"> </span>of<span class="w"> </span>available<span class="w"> </span>commands.
+Type<span class="w"> </span><span class="s1">&#39;help&#39;</span><span class="w"> </span>followed<span class="w"> </span>by<span class="w"> </span>a<span class="w"> </span><span class="nb">command</span><span class="w"> </span>name<span class="w"> </span><span class="k">for</span><span class="w"> </span>more
+information<span class="w"> </span>on<span class="w"> </span>commands.
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to MOMF Documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="gettingstart.html" class="btn btn-neutral float-right" title="Getting Started" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, ClimateLeadGroup.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
