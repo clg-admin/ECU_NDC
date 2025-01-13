@@ -8,7 +8,7 @@ take a better comprenhension.
 
 .. t1_workflow:
 
-.. image:: _static/_images/struc_tier1.png
+.. .. image:: _static/_images/struc_tier1.png
 
 Example
 -------

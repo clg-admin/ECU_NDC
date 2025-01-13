@@ -21,7 +21,7 @@ support.
 
 .. momf_folder_struc:
 
-.. image:: _static/_images/momf_folder_struc.png
+.. .. image:: _static/_images/momf_folder_struc.png
 
 Currently, ``MOMF`` exclusively accommodates the GNU MathProg variant of OSeMOSYS.
 
