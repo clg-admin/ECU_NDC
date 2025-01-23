@@ -1,7 +1,7 @@
 .. _welcome:
 
 ===========================================
-Welcome to **MOMF** Documentation!
+Welcome to **ECU-NDC** Documentation!
 ===========================================
 
 Is energy system modeling tools that identify features of a robust
@@ -12,7 +12,7 @@ the **M**\ ultipurpose **O**\ Se **M**\ OSYS-based **F**\ ramework (MOMF).
 
 The MOMF can support energy decarbonization planning exercises, and it
 is suitable to address the uncertainty involved in a decadeslong
-process. It compares possible NDP futures -quantitative combinations of
+process. It compares possible NDC futures -quantitative combinations of
 uncertainties and sectoral policy objectives- to a business-as-usual
 (BAU) scenario without decarbonization. The MOMF also evaluates actors
 within a country, including the fiscal impacts of decarbonization,
@@ -21,30 +21,28 @@ support.
 
 .. momf_folder_struc:
 
-.. image:: _static/_images/momf_folder_struc.png
+.. .. image:: _static/_images/momf_folder_struc.png
 
 Currently, ``MOMF`` exclusively accommodates the GNU MathProg variant of OSeMOSYS.
 
-Contents
+Contenidos
 ========
 
 .. toctree::
    :maxdepth: 2
-
-   Installation <install>
-   Getting Started <gettingstart>
    
-   License <license>
-   Authors <authors>
+   Estructura de los modelos <0_model>
+   Datos de entrada <1_inputs>
+   Construcción de escenarios <2_scenarios>
 
 
 
 
 
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`search`
 .. * :ref:`modindex`

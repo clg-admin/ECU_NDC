@@ -25,25 +25,24 @@ support.
 
 Currently, ``MOMF`` exclusively accommodates the GNU MathProg variant of OSeMOSYS.
 
-Contents
+Contenidos
 ========
 
 .. toctree::
    :maxdepth: 2
-
-   Getting Started <gettingstart>
    
-   License <license>
-   Authors <authors>
+   Estructura de los modelos <0_model>
+   Datos de entrada <1_inputs>
+   Construcción de escenarios <2_scenarios>
 
 
 
 
 
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`search`
 .. * :ref:`modindex`
