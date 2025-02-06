@@ -1,7 +1,7 @@
 License
 =======
 
-Copyright 2024 Climate Lead Group
+Copyright 2025 Climate Lead Group
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation

@@ -1,50 +1,55 @@
 .. _welcome:
 
-===========================================
-Welcome to **MOMF** Documentation!
-===========================================
+===================================================
+Bienvenido a la documentación de **OSeMOSYS-ECU**!
+===================================================
 
-Is energy system modeling tools that identify features of a robust
-energy policy: a policy that performs well relative to alternatives. The
-tools are based on the Open Souce Modeling System (OSeMOSYS), are named
-the **M**\ ultipurpose **O**\ Se **M**\ OSYS-based **F**\ ramework (MOMF).
+.. _por_que_desarrollo:
+
+====================================
+¿Por qué se desarrolló el proyecto?
+====================================
+
+El modelo (OSeMOSYS-ECU) se creó como una herramienta para evaluar el potencial de mitigación de las acciones presentadas dentro de la Contribución Nacionalmente Determinada del Ecuador. Este proyecto fue contratado por UNPS para el gobierno del Ecuador.
+
+.. _horizonte_modelo:
+
+==================================
+¿Qué horizonte tiene este modelo?
+==================================
+
+El proyecto incluye los sectores:
+
+- Energía
+- Procesos industriales y uso de productos (IPPU)
+- Residuos
+- Agricultura, Silvicultura y otros Usos de la Tierra (AFOLU)
 
 
-The MOMF can support energy decarbonization planning exercises, and it
-is suitable to address the uncertainty involved in a decadeslong
-process. It compares possible NDP futures -quantitative combinations of
-uncertainties and sectoral policy objectives- to a business-as-usual
-(BAU) scenario without decarbonization. The MOMF also evaluates actors
-within a country, including the fiscal impacts of decarbonization,
-following the best practices of applied energy modeling for policy
-support.
 
-.. momf_folder_struc:
+El periodo de análisis de este modelo es desde el 2010 hasta el 2035.
 
-.. image:: _static/_images/momf_folder_struc.png
+(←
 
-Currently, ``MOMF`` exclusively accommodates the GNU MathProg variant of OSeMOSYS.
-
+========
 Contents
 ========
 
 .. toctree::
    :maxdepth: 2
 
-   Installation <install>
-   Getting Started <gettingstart>
-   
-   License <license>
-   Authors <authors>
+   ¿Cómo usar el modelo? <gettingstart>  
+   Modelo de energía <model_energy>
+   Licencia <license>
+   Autores <authors>
 
 
 
-
-
-
+==================
 Indices and tables
 ==================
 
 * :ref:`genindex`
 * :ref:`search`
+
 .. * :ref:`modindex`

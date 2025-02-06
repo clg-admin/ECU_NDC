@@ -5,6 +5,7 @@ Contributors
 * |github| `Jairo Quirós-Tortós  <https://github.com/jairoquirost>`_ 
 * |github| `Andrey Salazar-Vargas <https://github.com/andreysava19>`_
 * |github| `Ignacio Alfaro-Corrales <https://github.com/ignacioalfa>`_
+* |github| `Susana Solórzano-Jiménez <https://github.com/Susana-Solorzano-Jimenez>`_
 
 .. |github| image:: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
    :target: https://github.com
