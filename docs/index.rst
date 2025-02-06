@@ -28,7 +28,7 @@ El proyecto incluye los sectores:
 - Residuos
 - Agricultura, Silvicultura y otros Usos de la Tierra (AFOLU)
 
-.. Note::
+.. note:: 
       El periodo de análisis de este modelo es desde el 2010 hasta el 2035.
 
 ========
