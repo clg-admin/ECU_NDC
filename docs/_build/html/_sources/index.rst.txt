@@ -10,7 +10,10 @@ Bienvenido a la documentación de **OSeMOSYS-ECU**!
 ¿Por qué se desarrolló el proyecto?
 ====================================
 
-El modelo (OSeMOSYS-ECU) se creó como una herramienta para evaluar el potencial de mitigación de las acciones presentadas dentro de la Contribución Nacionalmente Determinada del Ecuador. Este proyecto fue contratado por UNPS para el gobierno del Ecuador.
+El modelo (OSeMOSYS-ECU) se creó como una herramienta para evaluar el potencial
+de mitigación de las acciones presentadas dentro de la Contribución Nacionalmente
+Determinada del Ecuador. Este proyecto fue contratado por UNPS para el gobierno
+del Ecuador.
 
 .. _horizonte_modelo:
 
@@ -39,17 +42,13 @@ Contents
    :maxdepth: 2
 
    ¿Cómo usar el modelo? <gettingstart>  
+   Estructura de los modelos <0_model>
    Modelo de energía <model_energy>
    Licencia <license>
    Autores <authors>
 
+.. Datos de entrada comentado temporalmente
+.. Datos de entrada <1_inputs>
 
-
-==================
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
-
-.. * :ref:`modindex`
+.. Construcción de escenarios comentado temporalmente
+.. Construcción de escenarios <2_scenarios>
