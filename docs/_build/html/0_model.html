@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="./">
 <head>
@@ -5,23 +7,19 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Estructura de los modelos &mdash; ECU_NDC  documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
   
-  <!--[if lt IE 9]>
-    <script src="_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="_static/jquery.js?v=5d32c60e"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=5929fcd5"></script>
-        <script src="_static/doctools.js?v=9a2dae69"></script>
-        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Modelo de Energía" href="model_energy.html" />
+    <link rel="next" title="Datos de entrada" href="1_inputs.html" />
     <link rel="prev" title="¿Cómo usar el modelo?" href="gettingstart.html" /> 
 </head>
 
@@ -51,11 +49,12 @@
 <li class="toctree-l2"><a class="reference internal" href="#estructura-del-modelo-del-sector-residuos">Estructura del modelo del sector Residuos</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="1_inputs.html">Datos de entrada</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_scenarios.html">Construcción de escenarios</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_references.html">Referencias</a></li>
 <li class="toctree-l1"><a class="reference internal" href="model_energy.html">Modelo de energía</a></li>
 <li class="toctree-l1"><a class="reference internal" href="license.html">Licencia</a></li>
 <li class="toctree-l1"><a class="reference internal" href="authors.html">Autores</a></li>
-<li class="toctree-l1"><a class="reference internal" href="1_inputs.html">.. Datos de entrada</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2_scenarios.html">.. Construcción de escenarios</a></li>
 </ul>
 
         </div>
@@ -84,8 +83,47 @@
              
   <section id="estructura-de-los-modelos">
 <h1>Estructura de los modelos<a class="headerlink" href="#estructura-de-los-modelos" title="Link to this heading"></a></h1>
+<p>A continuación se presenta la estructura de los modelos de los diferentes sectores estudiados.</p>
 <section id="estructura-del-modelo-del-sector-procesos-industriales-y-uso-de-productos-piup">
 <h2>Estructura del modelo del sector Procesos Industriales y Uso de Productos (PIUP)<a class="headerlink" href="#estructura-del-modelo-del-sector-procesos-industriales-y-uso-de-productos-piup" title="Link to this heading"></a></h2>
+<p>El sector Procesos Industriales y Uso de Productos (PIUP), es uno de los sectores de mitigación estudiados por el Panel Intergubernamental de Expertos sobre el Cambio Climático (en inglés Intergovernmental Panel on Climate Change o conocido también por sus siglas IPCC). En Ecuador, el sector PIUP abarca varias categorías y subcategorías emisoras de GEI, de acuerdo con el INGEI de la 5ta Comunicación Nacional (5CN) del Ecuador (MAATE, n.d.), que se enlistan a continuación:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt><strong>Categoría 2A: Industria de los minerales</strong></dt><dd><ul>
+<li><p><strong>Subcategoría 2A1:</strong> Producción de Cemento</p></li>
+<li><p><strong>Subcategoría 2A2:</strong> Producción de Cal</p></li>
+<li><p><strong>Subcategoría 2A3:</strong> Producción de Vidrio</p></li>
+<li><p><strong>Subcategoría 2A4a:</strong> Cerámica</p></li>
+<li><p><strong>Subcategoría 2A4b:</strong> Otros Usos de la Soda Ash</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Categoría 2C: Industria de los metales</strong></dt><dd><ul>
+<li><p><strong>Subcategoría 2C1:</strong> Producción de Hierro y Acero</p></li>
+<li><p><strong>Subcategoría 2C5:</strong> Producción de Plomo</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Categoría 2D: Uso de Productos no Energéticos de combustibles y de solventes</strong></dt><dd><ul>
+<li><p><strong>Subcategoría 2D1:</strong> Uso de Lubricantes</p></li>
+<li><p><strong>Subcategoría 2D2:</strong> Uso de Cera Parafina</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Categoría 2F: Uso de Productos como sustitutos para las substancias que agotan la capa de ozono</strong></dt><dd><ul>
+<li><p><strong>Subcategoría 2F1:</strong> Refrigeración y Aire Acondicionado</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para poder representar la actividad y las emisiones anuales de las categorías y subcategorías del sector, así como para facilitar la construcción de varios escenarios basado en la adopción de diversas políticas, acciones o iniciativas. De forma simplificada, el modelo se ilustra en la Figura 1.</p>
 <figure class="align-center" id="id1">
 <a class="reference internal image-reference" href="_images/RSS_IPPU.png"><img alt="Diagrama del sector" src="_images/RSS_IPPU.png" style="width: 100%;" />
 </a>
@@ -93,6 +131,7 @@
 <p><span class="caption-text">Figura 1. Diagrama de referencia del modelo del sector PIUP.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
 </figcaption>
 </figure>
+<p>En las Tablas 1, 2 y 3 se incluye la nomenclatura de los sets Technologies, Commodities y Emission del modelo de la Figura 1.</p>
 <p><em>Tabla 1: Tecnologías incluidas en el modelo OSeMOSYS del sector PIUP.</em></p>
 <table class="docutils align-center">
 <thead>
@@ -374,6 +413,40 @@ y Uso de Productos</p></td>
 </section>
 <section id="estructura-del-modelo-del-sector-residuos">
 <h2>Estructura del modelo del sector Residuos<a class="headerlink" href="#estructura-del-modelo-del-sector-residuos" title="Link to this heading"></a></h2>
+<p>Otro de los sectores de mitigación estudiados por el IPCC es el sector Residuos. Este sector produce emisiones por varias prácticas de disposición y tratamiento de residuos sólidos y aguas residuales generadas en el país. En cuanto a GEI, en el sector se genera principalmente metano (CH4) y óxido nitroso (N2O) por la descomposición de materia orgánica, además de CO2 por la incineración de residuos sólidos, aportando a la liberación bruta de emisiones de CO2e en el Ecuador. Las categorías y subcategorías que conforman este sector se enlistan a continuación:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt><strong>5A: Disposición de residuos sólidos</strong></dt><dd><ul>
+<li><p><strong>5A1:</strong> Sitios de disposición de residuos sólidos gestionados</p></li>
+<li><p><strong>5A2:</strong> Sitios de disposición de residuos sólidos no gestionados</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>5B: Tratamiento biológico de residuos sólidos</strong></dt><dd><ul>
+<li><p><strong>5B1:</strong> Compostaje</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>5C: Incineración y quema abierta de residuos</strong></dt><dd><ul>
+<li><p><strong>5C1:</strong> Incineración de residuos</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>5D: Eliminación y tratamiento de aguas residuales</strong></dt><dd><ul>
+<li><p><strong>5D1:</strong> Aguas residuales domésticas</p></li>
+<li><p><strong>5D2:</strong> Aguas residuales industriales</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para poder representar la actividad y las emisiones anuales de las categorías y subcategorías del sector, así como para facilitar la construcción de varios escenarios basado en iniciativas de disposición adecuada, reducción y tratamiento de residuos sólidos y aguas residuales. De forma simplificada, el modelo que simula el comportamiento del sector residuos sólidos se ilustra en la Figura 2. Por su parte el modelo que representa las aguas residuales se muestra en la Figura 3.</p>
 <figure class="align-center" id="id2">
 <a class="reference internal image-reference" href="_images/RSS_Waste_Sol.png"><img alt="Diagrama del sector" src="_images/RSS_Waste_Sol.png" style="width: 100%;" />
 </a>
@@ -388,6 +461,7 @@ y Uso de Productos</p></td>
 <p><span class="caption-text">Figura 3. Diagrama de referencia del modelo del sector Aguas Residuales.</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
 </figcaption>
 </figure>
+<p>En las Tablas 4, 5 y 6 se incluye la nomenclatura de los sets Technologies, Commodities y Emission del modelo de las Figura 2 y 3.</p>
 <p><em>Tabla 4: Tecnologías incluidas en el modelo OSeMOSYS del sector PIUP.</em></p>
 <table class="docutils align-center">
 <thead>
@@ -597,7 +671,7 @@ residuos</p></td>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="gettingstart.html" class="btn btn-neutral float-left" title="¿Cómo usar el modelo?" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="model_energy.html" class="btn btn-neutral float-right" title="Modelo de Energía" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="1_inputs.html" class="btn btn-neutral float-right" title="Datos de entrada" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

@@ -56,8 +56,8 @@ Los vectores energéticos que conforman el suministro de energía primaria y sec
 Nomenclatura de códigos
 -----------------------------
 
-Vectores eenergéticos
-^^^^^^^^^^^^^^^^^^^^^^
+Vectores energéticos
+^^^^^^^^^^^^^^^^^^^^
 
 
 **Tabla 2. Vectores energético incluidos en el modelo de energía**

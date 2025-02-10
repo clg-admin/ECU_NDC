@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="./">
 <head>
@@ -5,24 +7,20 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Datos de entrada &mdash; ECU_NDC  documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
   
-  <!--[if lt IE 9]>
-    <script src="_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="_static/jquery.js?v=5d32c60e"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=5929fcd5"></script>
-        <script src="_static/doctools.js?v=9a2dae69"></script>
-        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Construcción de escenarios" href="2_scenarios.html" />
-    <link rel="prev" title="Contributors" href="authors.html" /> 
+    <link rel="prev" title="Estructura de los modelos" href="0_model.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -47,11 +45,16 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="gettingstart.html">¿Cómo usar el modelo?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="0_model.html">Estructura de los modelos</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Datos de entrada</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#datos-para-el-modelo-del-sector-piup">Datos para el modelo del sector (PIUP)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#datos-para-el-modelo-del-sector-residuos">Datos para el modelo del sector Residuos</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2_scenarios.html">Construcción de escenarios</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_references.html">Referencias</a></li>
 <li class="toctree-l1"><a class="reference internal" href="model_energy.html">Modelo de energía</a></li>
 <li class="toctree-l1"><a class="reference internal" href="license.html">Licencia</a></li>
 <li class="toctree-l1"><a class="reference internal" href="authors.html">Autores</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">.. Datos de entrada</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2_scenarios.html">.. Construcción de escenarios</a></li>
 </ul>
 
         </div>
@@ -80,13 +83,109 @@
              
   <section id="datos-de-entrada">
 <h1>Datos de entrada<a class="headerlink" href="#datos-de-entrada" title="Link to this heading"></a></h1>
+<p>A continuación se presentan los datos y supuestos para los modelos de los diferentes sectores estudiados.</p>
+<section id="datos-para-el-modelo-del-sector-piup">
+<h2>Datos para el modelo del sector (PIUP)<a class="headerlink" href="#datos-para-el-modelo-del-sector-piup" title="Link to this heading"></a></h2>
+<p>En la Tabla 7 se presentan las fuentes de información utilizadas para la satisfacción de datos de los parámetros del modelo del sector PIUP.</p>
+<p><em>Tabla 7: Fuentes de información para parametrizar el sector PIUP.</em></p>
+<table class="docutils align-center">
+<thead>
+<tr class="row-odd"><th class="head"><p>Dato/Supuesto</p></th>
+<th class="head"><p>Detalle</p></th>
+<th class="head"><p>Fuente</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Producción de cemento histórica</p></td>
+<td><p>Datos históricos (2010-2018) disponibles en las hojas de cálculo y reportes del National Inventory Report (NIR o INGEI en español).</p></td>
+<td><p>(MAATE, n.d.)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Producción de Clinker histórica</p></td>
+<td><p>Datos históricos (2010-2018) disponibles en las hojas de cálculo y reportes del National Inventory Report (NIR o INGEI en español).</p></td>
+<td><p>(MAATE, n.d.)</p></td>
+</tr>
+<tr class="row-even"><td><p>Factor de Clinker histórico</p></td>
+<td><p>Cálculo estimado utilizando la producción de Clinker entre la producción de Cemento históricas.</p></td>
+<td><p>(MAATE, n.d.)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Factores de emisión de producción de Clinker</p></td>
+<td><p>Valores propios para Ecuador. Datos históricos presentes en las hojas de cálculo del National Inventory Report (NIR o INGEI).</p></td>
+<td><p>(MAATE, n.d.)</p></td>
+</tr>
+<tr class="row-even"><td><p>Emisiones históricas de varias categorías</p></td>
+<td><p>Datos históricos (2010-2022) presentes en las hojas de cálculo del National Inventory Report (NIR o INGEI).</p></td>
+<td><p>(MAATE, n.d.)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Producción de cemento futura</p></td>
+<td><p>Se toman los datos históricos y se proyecta un crecimiento del 2023 al 2035 siguiendo el escenario tendencial del sector PIUP.</p></td>
+<td><p>(MAATE, 2024)</p></td>
+</tr>
+<tr class="row-even"><td><p>Factor de Clinker futuro</p></td>
+<td><p>Se toma el último valor histórico conocido de este indicador y se mantiene constante.</p></td>
+<td><p>(MAATE, n.d.)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Trayectoria de emisiones de Refrigeración</p></td>
+<td><p>Estimado haciendo uso del escenario tendencial presente en la Hoja de Ruta de la Enmienda de Kigali.</p></td>
+<td><p>(MPCEIP, 2023)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="datos-para-el-modelo-del-sector-residuos">
+<h2>Datos para el modelo del sector Residuos<a class="headerlink" href="#datos-para-el-modelo-del-sector-residuos" title="Link to this heading"></a></h2>
+<p>En la Tabla 8 se presentan las fuentes de información utilizadas para la satisfacción de datos de los parámetros del modelo del sector Residuos.</p>
+<p><em>Tabla 8: Fuentes de información para parametrizar el sector Residuos.</em></p>
+<table class="docutils align-center">
+<thead>
+<tr class="row-odd"><th class="head"><p>Dato/Supuesto</p></th>
+<th class="head"><p>Detalle</p></th>
+<th class="head"><p>Fuente</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Actividad histórica por categoría 5A, 5B, 5C y 5D
+y subcategoría 5A1, 5A2, 5B1, 5C1, 5D1 y 5D2</p></td>
+<td><p>Datos históricos (2010-2022) presentes en las hojas de
+cálculo del National Inventory Report (NIR o INGEI en
+español).</p></td>
+<td><p>(MAATE, n.d.)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Factores de emisión por categoría
+y subcategoría</p></td>
+<td><p>Datos históricos (2010-2022) presentes en las hojas de
+cálculo del National Inventory Report (NIR o INGEI en
+español).</p></td>
+<td><p>(MAATE, n.d.)</p></td>
+</tr>
+<tr class="row-even"><td><p>Generación nacional de residuos
+sólidos de Ecuador en 2016</p></td>
+<td><p>Cantidad de residuos sólidos generados a nivel nacional
+en 2016: 5.3 Mt.</p></td>
+<td><p>(Kaza et al., 2018)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Población total nacional (2010-2035)</p></td>
+<td><p>Cantidad de habitantes actualizada en el país.</p></td>
+<td><p>(INEC, 2024)</p></td>
+</tr>
+<tr class="row-even"><td><p>Tendencia futura de generación nacional de
+residuos sólidos y actividad futura de
+subcategorías de aguas residuales</p></td>
+<td><p>Se toman los datos históricos y se proyecta un
+crecimiento del 2023 al 2035 siguiendo las mismas tasas
+de crecimiento anual tomadas en consideración en el
+escenario tendencial    del sector PIUP.</p></td>
+<td><p>(MAATE, 2024)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="authors.html" class="btn btn-neutral float-left" title="Contributors" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="0_model.html" class="btn btn-neutral float-left" title="Estructura de los modelos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="2_scenarios.html" class="btn btn-neutral float-right" title="Construcción de escenarios" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

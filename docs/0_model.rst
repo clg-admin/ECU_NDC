@@ -1,8 +1,29 @@
 Estructura de los modelos
 =========================
 
+A continuación se presenta la estructura de los modelos de los diferentes sectores estudiados.
+
 Estructura del modelo del sector Procesos Industriales y Uso de Productos (PIUP)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+El sector Procesos Industriales y Uso de Productos (PIUP), es uno de los sectores de mitigación estudiados por el Panel Intergubernamental de Expertos sobre el Cambio Climático (en inglés Intergovernmental Panel on Climate Change o conocido también por sus siglas IPCC). En Ecuador, el sector PIUP abarca varias categorías y subcategorías emisoras de GEI, de acuerdo con el INGEI de la 5ta Comunicación Nacional (5CN) del Ecuador (MAATE, n.d.), que se enlistan a continuación:
+
+- **Categoría 2A: Industria de los minerales**
+    - **Subcategoría 2A1:** Producción de Cemento
+    - **Subcategoría 2A2:** Producción de Cal
+    - **Subcategoría 2A3:** Producción de Vidrio
+    - **Subcategoría 2A4a:** Cerámica
+    - **Subcategoría 2A4b:** Otros Usos de la Soda Ash
+- **Categoría 2C: Industria de los metales**
+    - **Subcategoría 2C1:** Producción de Hierro y Acero
+    - **Subcategoría 2C5:** Producción de Plomo
+- **Categoría 2D: Uso de Productos no Energéticos de combustibles y de solventes**
+    - **Subcategoría 2D1:** Uso de Lubricantes
+    - **Subcategoría 2D2:** Uso de Cera Parafina
+- **Categoría 2F: Uso de Productos como sustitutos para las substancias que agotan la capa de ozono**
+    - **Subcategoría 2F1:** Refrigeración y Aire Acondicionado
+
+Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para poder representar la actividad y las emisiones anuales de las categorías y subcategorías del sector, así como para facilitar la construcción de varios escenarios basado en la adopción de diversas políticas, acciones o iniciativas. De forma simplificada, el modelo se ilustra en la Figura 1.
 
 .. figure:: source/RSS_IPPU.png
    :alt: Diagrama del sector 
@@ -11,6 +32,7 @@ Estructura del modelo del sector Procesos Industriales y Uso de Productos (PIUP)
 
    Figura 1. Diagrama de referencia del modelo del sector PIUP.
 
+En las Tablas 1, 2 y 3 se incluye la nomenclatura de los sets Technologies, Commodities y Emission del modelo de la Figura 1.
 
 *Tabla 1: Tecnologías incluidas en el modelo OSeMOSYS del sector PIUP.*
 
@@ -210,6 +232,21 @@ Estructura del modelo del sector Procesos Industriales y Uso de Productos (PIUP)
 Estructura del modelo del sector Residuos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Otro de los sectores de mitigación estudiados por el IPCC es el sector Residuos. Este sector produce emisiones por varias prácticas de disposición y tratamiento de residuos sólidos y aguas residuales generadas en el país. En cuanto a GEI, en el sector se genera principalmente metano (CH4) y óxido nitroso (N2O) por la descomposición de materia orgánica, además de CO2 por la incineración de residuos sólidos, aportando a la liberación bruta de emisiones de CO2e en el Ecuador. Las categorías y subcategorías que conforman este sector se enlistan a continuación:
+
+- **5A: Disposición de residuos sólidos**
+    - **5A1:** Sitios de disposición de residuos sólidos gestionados
+    - **5A2:** Sitios de disposición de residuos sólidos no gestionados
+- **5B: Tratamiento biológico de residuos sólidos**
+    - **5B1:** Compostaje
+- **5C: Incineración y quema abierta de residuos**
+    - **5C1:** Incineración de residuos
+- **5D: Eliminación y tratamiento de aguas residuales**
+    - **5D1:** Aguas residuales domésticas
+    - **5D2:** Aguas residuales industriales
+
+Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para poder representar la actividad y las emisiones anuales de las categorías y subcategorías del sector, así como para facilitar la construcción de varios escenarios basado en iniciativas de disposición adecuada, reducción y tratamiento de residuos sólidos y aguas residuales. De forma simplificada, el modelo que simula el comportamiento del sector residuos sólidos se ilustra en la Figura 2. Por su parte el modelo que representa las aguas residuales se muestra en la Figura 3.
+
 .. figure:: source/RSS_Waste_Sol.png
    :alt: Diagrama del sector 
    :width: 100%
@@ -225,6 +262,7 @@ Estructura del modelo del sector Residuos
 
    Figura 3. Diagrama de referencia del modelo del sector Aguas Residuales.
 
+En las Tablas 4, 5 y 6 se incluye la nomenclatura de los sets Technologies, Commodities y Emission del modelo de las Figura 2 y 3.
 
 *Tabla 4: Tecnologías incluidas en el modelo OSeMOSYS del sector PIUP.*
 

@@ -40,12 +40,9 @@ Contents
 
    ¿Cómo usar el modelo? <gettingstart>  
    Estructura de los modelos <0_model>
+   Datos de entrada <1_inputs>
+   Construcción de escenarios <2_scenarios>
+   Referencias <3_references>
    Modelo de energía <model_energy>
    Licencia <license>
    Autores <authors>
-
-.. Datos de entrada comentado temporalmente
-.. Datos de entrada <1_inputs>
-
-.. Construcción de escenarios comentado temporalmente
-.. Construcción de escenarios <2_scenarios>
