@@ -21,7 +21,7 @@ El sector Procesos Industriales y Uso de Productos (PIUP), es uno de los sectore
 
 Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para poder representar la actividad y las emisiones anuales de las categorías y subcategorías del sector, así como para facilitar la construcción de varios escenarios basado en la adopción de diversas políticas, acciones o iniciativas. De forma simplificada, el modelo se ilustra en la Figura 1.
 
-.. figure:: _static/_images/PIUP_RSS.png
+.. figure:: ../_static/_images/PIUP_RSS.png
    :alt: Diagrama del sector 
    :width: 100%
    :align: center

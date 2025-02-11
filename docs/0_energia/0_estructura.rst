@@ -1,6 +1,6 @@
-===================================
+---------------------
 Estructura general del modelo
-===================================
+---------------------
 
 El sector energético analiza el consumo de energía, considerando la oferta 
 primaria de combustibles, su producción, importación y exportación.  
@@ -33,19 +33,19 @@ Nacional (5CN) del Ecuador (MAATE, n.d.).
      - Emisiones fugitivas
      - Se asocian a la producción de petróleo y gas natural.
 
-.. image:: _static/_images/energia_estructura.png
+.. image:: ../_static/_images/energia_estructura.png
    :align: center
    :alt: Figura 1 - Estructura del modelo de energía
 
 **Figura 1. Estructura del modelo de energía**
 
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 Nomenclatura de códigos
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""
 Vectores energéticos
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""
 
 
 **Tabla 2. Vectores energético incluidos en el modelo de energía**
@@ -101,9 +101,9 @@ Vectores energéticos
 | Gas asociado                                     | E0GRE  |
 +--------------------------------------------------+--------+
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""
 Emisiones
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""
 
 
 **Tabla 3. Clasificación de emisiones estimadas en el modelo de energía**
@@ -151,9 +151,9 @@ Emisiones
 | N2O_FUG     | Óxido nitroso por producción de combustibles fósiles                       |
 +-------------+----------------------------------------------------------------------------+
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""
 Tecnologías
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""
 
 
 **Tabla 4. Tecnologías incluidas en el modelo de energía**

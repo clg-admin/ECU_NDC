@@ -1,6 +1,6 @@
-===================================
+---------------------
 Escenarios
-===================================
+---------------------
 
 El sector energético contempla tres escenarios. El escenario **Tendencial** de la 1ra NDC representa un caso base sin iniciativas. Para definir un caso sin iniciativas se utilizan los datos históricos de demandas energéticas (MEM, 2023) y la generación eléctrica de ARCONEL (ARCONEL, 2022), los cuales se ajustan para compensar el efecto de las iniciativas registradas en la data histórica.
 
