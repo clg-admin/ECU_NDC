@@ -1,2 +1,0 @@
-Datos de entrada
-================
