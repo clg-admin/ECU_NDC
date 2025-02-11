@@ -1,6 +1,6 @@
-====================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 Escenarios
-====================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Para el sector PIUP primeramente se construye un escenario Tendencial. Este representa un escenario sin iniciativas NDC que servirá para comparar los escenarios que sí poseen iniciativas tomadas bajo el contexto de las NDC. Para definir un caso sin iniciativas se utilizan los datos históricos y supuestos del sector presentados en la Tabla 7 y se ajustan para compensar el efecto de las iniciativas NDC que ya se han materializado dentro de la información histórica.
 

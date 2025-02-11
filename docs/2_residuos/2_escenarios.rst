@@ -1,6 +1,6 @@
-====================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 Escenarios
-====================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 En lo que respecta al sector Residuos, al igual que en los sectores anteriores, primeramente, se construye un escenario Tendencial. Este escenario pretende reflejar un futuro sin iniciativas NDC con el fin de poder comparar contra cualquier otro escenario que sí poseen iniciativas tomadas bajo el contexto de las NDC en el sector Residuos. Para definir un caso sin iniciativas se utilizan los datos históricos y supuestos del sector presentados en la Tabla 8 y se ajustan para compensar el efecto de las iniciativas NDC cuyo cumplimiento ya ha avanzado, dentro de la información histórica.
 La iniciativa que se consideró para este proceso de ajuste, es la iniciativa del escenario Incondicional presente en la 1ra NDC (Gobierno de Ecuador, 2019) cuya descripción es la siguiente:
