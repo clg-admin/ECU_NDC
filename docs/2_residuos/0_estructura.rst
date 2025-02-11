@@ -1,6 +1,6 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+===================================
 Estructura del modelo
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+===================================
 
 Otro de los sectores de mitigación estudiados por el IPCC es el sector Residuos. Este sector produce emisiones por varias prácticas de disposición y tratamiento de residuos sólidos y aguas residuales generadas en el país. En cuanto a GEI, en el sector se genera principalmente metano (CH4) y óxido nitroso (N2O) por la descomposición de materia orgánica, además de CO2 por la incineración de residuos sólidos, aportando a la liberación bruta de emisiones de CO2e en el Ecuador. Las categorías y subcategorías que conforman este sector se enlistan a continuación:
 

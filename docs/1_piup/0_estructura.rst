@@ -1,6 +1,6 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+===================================
 Estructura del modelo
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+===================================
 
 El sector Procesos Industriales y Uso de Productos (PIUP), es uno de los sectores de mitigación estudiados por el Panel Intergubernamental de Expertos sobre el Cambio Climático (en inglés Intergovernmental Panel on Climate Change o conocido también por sus siglas IPCC). En Ecuador, el sector PIUP abarca varias categorías y subcategorías emisoras de GEI, de acuerdo con el INGEI de la 5ta Comunicación Nacional (5CN) del Ecuador (MAATE, n.d.), que se enlistan a continuación:
 

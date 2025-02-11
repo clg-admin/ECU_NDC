@@ -28,85 +28,18 @@ Estructura de la Documentación
 ==================================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Estructura de la Documentación
 
    Introducción <introduccion>
    Metodología <metodologia>
 
+   Energía <0_energia/index>
+   Procesos Industriales y Uso de Productos (PIUP) <1_piup/index>
+   Residuos <2_residuos/index>
+   Agricultura <3_agricultura/index>
+   Uso del Suelo y Cambio de Uso del Suelo (USCUSS) <4_uscuss/index>
 
-Energía
-==================================
-
-.. toctree::
-   :maxdepth: 2
-
-   Estructura del modelo <0_energia/0_estructura>
-   Datos de Entrada <0_energia/1_entradas>
-   Escenarios <0_energia/2_escenarios>
-   Resultados <0_energia/3_resultados>
-   Referencias <0_energia/4_referencias>
-
-
-Procesos Industriales y Uso de Productos (PIUP)
-==================================
-
-.. toctree::
-   :maxdepth: 2
-
-   Estructura del modelo <1_piup/0_estructura>
-   Datos de Entrada <1_piup/1_entradas>
-   Escenarios <1_piup/2_escenarios>
-   Resultados <1_piup/3_resultados>
-   Referencias <1_piup/4_referencias>
-
-
-Residuos
-==================================
-
-.. toctree::
-   :maxdepth: 2
-
-   Estructura del modelo <2_residuos/0_estructura>
-   Datos de Entrada <2_residuos/1_entradas>
-   Escenarios <2_residuos/2_escenarios>
-   Resultados <2_residuos/3_resultados>
-   Referencias <2_residuos/4_referencias>
-
-
-Agricultura
-==================================
-
-.. toctree::
-   :maxdepth: 2
-
-   Estructura del modelo <3_agricultura/0_estructura>
-   Datos de Entrada <3_agricultura/1_entradas>
-   Escenarios <3_agricultura/2_escenarios>
-   Resultados <3_agricultura/3_resultados>
-   Referencias <3_agricultura/4_referencias>
-
-
-Uso del Suelo y Cambio de Uso del Suelo (USCUSS)
-==================================
-
-.. toctree::
-   :maxdepth: 2
-
-   Estructura del modelo <4_uscuss/0_estructura>
-   Datos de Entrada <4_uscuss/1_entradas>
-   Escenarios <4_uscuss/2_escenarios>
-   Resultados <4_uscuss/3_resultados>
-   Referencias <4_uscuss/4_referencias>
-
-==================================
-Uso del modelo OSeMOSYS-ECU <gettingstarted>
-==================================
-
-==================================
-Licencia <license>
-==================================
-
-==================================
-Autores <authors>
-==================================
+   Uso del modelo OSeMOSYS-ECU <gettingstarted>
+   Licencia <license>
+   Autores <authors>
