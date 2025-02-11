@@ -22,7 +22,6 @@ Las iniciativas consideradas en este proceso son las listadas en la 1ra NDC para
   - Proyecto de Biogás
 
 El escenario **Incondicional 2da NDC** incluye 17 iniciativas nacionales para reducir las emisiones en Ecuador. Estas iniciativas abarcan:
------------------------------
 
 - La descarbonización del sector eléctrico, mediante la incorporación de 9 proyectos hidroeléctricos y 3 proyectos de energías renovables no convencionales.
 - Medidas de eficiencia energética en el sector petrolero, que incluyen el programa OG&EE y el uso de gasolina con etanol.
@@ -75,7 +74,6 @@ En la Tabla 5 se detallan las iniciativas del escenario Incondicional de la 2da 
 
 
 El escenario **Incondicional y Condicional 2daNDC** incluye 17 iniciativas nacionales para reducir las emisiones en Ecuador. Estas iniciativas abarcan:
------------------------------
 
 - La descarbonización del sector eléctrico, mediante la incorporación de 9 proyectos hidroeléctricos y 3 proyectos de energías renovables no convencionales.
 - Medidas de eficiencia energética en el sector petrolero, que incluyen el programa OG&EE y el uso de gasolina con etanol.

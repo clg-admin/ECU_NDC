@@ -34,9 +34,9 @@ Estructura de la Documentación
    Introducción <introduccion>
    Metodología <metodologia>
 
---------------------------------------
+
 Energía
---------------------------------------
+==================================
 
 .. toctree::
    :maxdepth: 2
@@ -47,9 +47,9 @@ Energía
    Resultados <0_energia/3_resultados>
    Referencias <0_energia/4_referencias>
 
---------------------------------------
+
 Procesos Industriales y Uso de Productos (PIUP)
---------------------------------------
+==================================
 
 .. toctree::
    :maxdepth: 2
@@ -60,9 +60,9 @@ Procesos Industriales y Uso de Productos (PIUP)
    Resultados <1_piup/3_resultados>
    Referencias <1_piup/4_referencias>
 
---------------------------------------
+
 Residuos
---------------------------------------
+==================================
 
 .. toctree::
    :maxdepth: 2
@@ -73,9 +73,9 @@ Residuos
    Resultados <2_residuos/3_resultados>
    Referencias <2_residuos/4_referencias>
 
---------------------------------------
+
 Agricultura
---------------------------------------
+==================================
 
 .. toctree::
    :maxdepth: 2
@@ -86,9 +86,9 @@ Agricultura
    Resultados <3_agricultura/3_resultados>
    Referencias <3_agricultura/4_referencias>
 
---------------------------------------
+
 Uso del Suelo y Cambio de Uso del Suelo (USCUSS)
---------------------------------------
+==================================
 
 .. toctree::
    :maxdepth: 2
