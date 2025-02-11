@@ -33,7 +33,7 @@ Nacional (5CN) del Ecuador (MAATE, n.d.).
      - Emisiones fugitivas
      - Se asocian a la producción de petróleo y gas natural.
 
-.. image:: _static/_images/figura_1_estructura_modelo_energia.png
+.. image:: _static/_images/energia_estructura.png
    :align: center
    :alt: Figura 1 - Estructura del modelo de energía
 

@@ -17,7 +17,7 @@ Otro de los sectores de mitigación estudiados por el IPCC es el sector Residuos
 
 Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para poder representar la actividad y las emisiones anuales de las categorías y subcategorías del sector, así como para facilitar la construcción de varios escenarios basado en iniciativas de disposición adecuada, reducción y tratamiento de residuos sólidos y aguas residuales. De forma simplificada, el modelo que simula el comportamiento del sector residuos sólidos se ilustra en la Figura 2. Por su parte el modelo que representa las aguas residuales se muestra en la Figura 3.
 
-.. figure:: source/residuos_sol_RSS.png
+.. figure:: _static/_images/residuos_sol_RSS.png
    :alt: Diagrama del sector 
    :width: 100%
    :align: center
@@ -25,7 +25,7 @@ Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para po
    Figura 2. Diagrama de referencia del modelo del sector Residuos Sólidos.
 
 
-.. figure:: source/residuos_aguas_RSS.png
+.. figure:: _static/_images/residuos_aguas_RSS.png
    :alt: Diagrama del sector 
    :width: 50%
    :align: center
