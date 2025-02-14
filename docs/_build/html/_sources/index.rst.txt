@@ -1,51 +1,45 @@
 .. _welcome:
 
 ===================================================
-Bienvenido a la documentación de **OSeMOSYS-ECU**!
+Documentación de OSeMOSYS-ECU
 ===================================================
 
-.. _por_que_desarrollo:
+OSeMOSYS-ECU es un modelo de planificación de mediano y largo plazo para la 
+cuantificación de emisiones desarrollado en estrecha colaboración con el 
+**PNUD y la FAO** para apoyar la construcción de la Segunda Contribución 
+Nacionalmente Determinada (NDC) de Ecuador.  
 
-====================================
-¿Por qué se desarrolló el proyecto?
-====================================
+El modelo se basa en **OSeMOSYS**, un marco de código abierto ampliamente 
+utilizado para evaluar políticas de mitigación y estrategias de planificación 
+energética. Además, este trabajo amplía el modelo previamente utilizado en 
+el **PLANMICC** (`Plan Nacional de Mitigación del Cambio Climático 
+<https://github.com/PLANMICC/OSeMOSYS_Ecuador>`_).
 
-El modelo (OSeMOSYS-ECU) se creó como una herramienta para evaluar el potencial
-de mitigación de las acciones presentadas dentro de la Contribución Nacionalmente
-Determinada del Ecuador. Este proyecto fue contratado por UNPS para el gobierno
-del Ecuador.
 
-.. _horizonte_modelo:
+Este documento cubre la modelización de **cinco sectores clave**:
+- **Energía**
+- **Procesos industriales y uso de productos (PIUP)**
+- **Residuos**
+- **Agricultura**
+- **Uso del suelo y cambio de uso del suelo (USCUSS)**
 
 ==================================
-¿Qué horizonte tiene este modelo?
+Estructura de la Documentación
 ==================================
-
-El proyecto incluye los sectores:
-
-- Energía
-- Procesos industriales y uso de productos (IPPU)
-- Residuos
-- Agricultura, Silvicultura y otros Usos de la Tierra (AFOLU)
-
-.. Note::
-      El periodo de análisis de este modelo es desde el 2010 hasta el 2035.
-
-========
-Contents
-========
 
 .. toctree::
    :maxdepth: 2
+   :caption: Estructura de la Documentación
 
-   ¿Cómo usar el modelo? <gettingstart>  
-   Estructura de los modelos <0_model>
-   Modelo de energía <model_energy>
+   Introducción <introduccion>
+   Metodología <metodologia>
+
+   Energía <0_energia/index>
+   Procesos Industriales y Uso de Productos (PIUP) <1_piup/index>
+   Residuos <2_residuos/index>
+   Agricultura <3_agricultura/index>
+   Uso del Suelo y Cambio de Uso del Suelo (USCUSS) <4_uscuss/index>
+
+   Uso del modelo OSeMOSYS-ECU <gettingstarted>
    Licencia <license>
    Autores <authors>
-
-.. Datos de entrada comentado temporalmente
-.. Datos de entrada <1_inputs>
-
-.. Construcción de escenarios comentado temporalmente
-.. Construcción de escenarios <2_scenarios>
