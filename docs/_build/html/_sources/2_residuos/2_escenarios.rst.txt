@@ -9,7 +9,7 @@ La iniciativa que se consideró para este proceso de ajuste, es la iniciativa de
 
 El segundo escenario es el escenario Incondicional 2daNDC que incluye 5 iniciativas adicionales para reducir las emisiones del Ecuador. Estas iniciativas incluyen la reducción de la generación de residuos sólidos, el compostaje de residuos orgánicos, la captura de metano a partir de residuos sólidos y el tratamiento de aguas residuales con emisiones reducidas. En la Tabla 10 se detallan de mejor forma las iniciativas mencionadas.
 
-*Tabla 10: Descripción de iniciativas del sector Residuos para el escenario Incondicional 2daNDC.*
+*Tabla 9: Descripción de iniciativas del sector Residuos para el escenario Incondicional 2daNDC.*
 
 .. table::
    :align: center
@@ -35,7 +35,7 @@ El segundo escenario es el escenario Incondicional 2daNDC que incluye 5 iniciati
 
 El tercer escenario corresponde al que se nombró escenario Incondicional y Condicional 2daNDC. Para este escenario se contemplan 6 iniciativas adicionales (11 en total) con respecto al escenario Incondicional 2daNDC como se puede notar en la Tabla 11.
 
-*Tabla 11: Descripción de iniciativas del sector Residuos para el escenario Incondicional y Condicional 2daNDC.*
+*Tabla 10: Descripción de iniciativas del sector Residuos para el escenario Incondicional y Condicional 2daNDC.*
 
 .. table::
    :align: center

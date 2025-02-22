@@ -6,8 +6,8 @@ El sector agrícola analiza la producción de productos alimenticios como frutas
 
 Categorías del INGEI
 ---------------------
-
-.. list-table:: Tabla 1. Categorías del INGEI consideradas en el modelo de agricultura
+*Tabla 1. Categorías del INGEI consideradas en el modelo de agricultura*
+.. list-table:: 
    :header-rows: 1
 
    * - Código
@@ -46,8 +46,8 @@ Categorías del INGEI
 
 Emisiones
 ---------
-
-.. list-table:: Tabla 2. Clasificación de emisiones estimadas en el modelo de agricultura
+*Tabla 2. Clasificación de emisiones estimadas en el modelo de agricultura*
+.. list-table:: 
    :header-rows: 1
 
    * - Código
@@ -75,8 +75,8 @@ Emisiones
 
 Tecnologías
 -----------
-
-.. list-table:: Tabla 3. Tecnologías de productos agrícolas incluidas en el modelo de agricultura
+*Tabla 3. Tecnologías de productos agrícolas incluidas en el modelo de agricultura*
+.. list-table:: 
    :header-rows: 1
 
    * - Descripción
@@ -112,7 +112,8 @@ Tecnologías
    * - Tierras de cultivo Flores
      - AG_FLO
 
-.. list-table:: Tabla 4. Tecnologías de productos ganaderos incluidas en el modelo de agricultura
+*Tabla 4. Tecnologías de productos ganaderos incluidas en el modelo de agricultura*
+.. list-table:: 
    :header-rows: 1
 
    * - Descripción

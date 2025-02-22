@@ -46,6 +46,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../introduccion.html">Introducción</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../metodologia.html">Metodología</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nacionales.html">Emisiones Nacionales NDC</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../0_energia/index.html">Energía</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../1_piup/index.html">Procesos Industriales y Uso de Productos (PIUP)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../2_residuos/index.html">Residuos</a></li>
@@ -90,7 +91,231 @@
              
   <section id="estructura-del-modelo">
 <h1>Estructura del modelo<a class="headerlink" href="#estructura-del-modelo" title="Link to this heading"></a></h1>
-<p>Esta sección está en construcción y será actualizada pronto.</p>
+<p>El sector USCUSS analiza los cambios de uso de suelo y las emisiones y absorciones de CO2 provenientes de estos cambios, así como las absorciones debido a las áreas forestales protegidas. Las categorías analizadas se encuentran en la <strong>Tabla 7</strong>.</p>
+<p><em>Tabla 1. Categorías del INGEI consideradas en el modelo de USCUSS</em></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Código</p></th>
+<th class="head"><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>3B1a</p></td>
+<td><p>Tierras forestales que permanecen como tales</p></td>
+</tr>
+<tr class="row-odd"><td><p>3B1b</p></td>
+<td><p>Cambios de tierra de cultivo a tierras forestales</p></td>
+</tr>
+<tr class="row-even"><td><p>3B1b</p></td>
+<td><p>Cambios de pastizales a tierras forestales</p></td>
+</tr>
+<tr class="row-odd"><td><p>3B1b</p></td>
+<td><p>Cambios de humedales a tierras forestales</p></td>
+</tr>
+<tr class="row-even"><td><p>3B1b</p></td>
+<td><p>Cambios de otras tierras a tierras forestales</p></td>
+</tr>
+<tr class="row-odd"><td><p>3B2b</p></td>
+<td><p>Cambios de tierras forestales a tierras de cultivo</p></td>
+</tr>
+<tr class="row-even"><td><p>3B2b</p></td>
+<td><p>Cambios de humedales a tierras de cultivo</p></td>
+</tr>
+<tr class="row-odd"><td><p>3B2b</p></td>
+<td><p>Cambios de otras tierras a tierras de cultivo</p></td>
+</tr>
+<tr class="row-even"><td><p>3B3b</p></td>
+<td><p>Cambios de tierras forestales a pastizales</p></td>
+</tr>
+<tr class="row-odd"><td><p>3B3b</p></td>
+<td><p>Cambios de tierras cultivo a pastizales</p></td>
+</tr>
+<tr class="row-even"><td><p>3B3b</p></td>
+<td><p>Cambios de humedales a pastizales</p></td>
+</tr>
+<tr class="row-odd"><td><p>3B3b</p></td>
+<td><p>Cambios de otras tierras a pastizales</p></td>
+</tr>
+<tr class="row-even"><td><p>3B4b</p></td>
+<td><p>Cambios de tierras forestales a humedales</p></td>
+</tr>
+<tr class="row-odd"><td><p>3B4b</p></td>
+<td><p>Cambios de tierras cultivo a humedales</p></td>
+</tr>
+<tr class="row-even"><td><p>3B4b</p></td>
+<td><p>Cambios de pastizales a humedales</p></td>
+</tr>
+<tr class="row-odd"><td><p>3B5b</p></td>
+<td><p>Cambios de tierras forestales a asentamientos</p></td>
+</tr>
+<tr class="row-even"><td><p>3B5b</p></td>
+<td><p>Cambios de tierras cultivo a asentamientos</p></td>
+</tr>
+<tr class="row-odd"><td><p>3B5b</p></td>
+<td><p>Cambios de pastizales a asentamientos</p></td>
+</tr>
+<tr class="row-even"><td><p>3B6b</p></td>
+<td><p>Cambios de tierras forestales a otras tierras</p></td>
+</tr>
+<tr class="row-odd"><td><p>3B6b</p></td>
+<td><p>Cambios de tierras cultivo a otras tierras</p></td>
+</tr>
+<tr class="row-even"><td><p>3B6b</p></td>
+<td><p>Cambios de pastizales a otras tierras</p></td>
+</tr>
+</tbody>
+</table>
+<p>Las tierras forestales fueron subdivididas según los tipos de bosque, según la clasificación del INGEI:</p>
+<ul class="simple">
+<li><p>Seco andino</p></li>
+<li><p>Seco pluvioestacional</p></li>
+<li><p>Siempre verde andino montano</p></li>
+<li><p>Siempre verde andino pie montano</p></li>
+<li><p>Siempre verde andino ceja andina</p></li>
+<li><p>Siempre verde de tierras bajas de la Amazonía</p></li>
+<li><p>Siempre verde de tierras bajas del Chocó</p></li>
+<li><p>Manglar</p></li>
+<li><p>Moretal</p></li>
+</ul>
+<p>Emisiones
+El modelo del sector USCUSS únicamente contabiliza emisiones y absorciones de CO2.</p>
+<p>Tecnologías</p>
+<p><em>Tabla 1 Tecnologías de uso de suelo incluidas en el modelo de USCUSS</em></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Código</p></th>
+<th class="head"><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>LU_FOR</p></td>
+<td><p>Suelo forestal</p></td>
+</tr>
+<tr class="row-odd"><td><p>LU_WET</p></td>
+<td><p>Suelo humedales</p></td>
+</tr>
+<tr class="row-even"><td><p>LU_CROP</p></td>
+<td><p>Suelo tierras de cultivo</p></td>
+</tr>
+<tr class="row-odd"><td><p>LU_PAS</p></td>
+<td><p>Suelo pastizales</p></td>
+</tr>
+<tr class="row-even"><td><p>LU_SET</p></td>
+<td><p>Suelo asentamientos</p></td>
+</tr>
+<tr class="row-odd"><td><p>LU_OTL</p></td>
+<td><p>Suelo otros usos</p></td>
+</tr>
+<tr class="row-even"><td><p>LU_NPRAND</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Seco Andino - protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-odd"><td><p>LU_NUNAND</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Seco Andino - no protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>LU_NPRPFO</p></td>
+<td><p>Plantación forestal - protegido</p></td>
+</tr>
+<tr class="row-odd"><td><p>LU_NUNPFO</p></td>
+<td><p>Plantación forestal - no protegido</p></td>
+</tr>
+<tr class="row-even"><td><p>LU_NPRPLU</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Pluvioestacional - protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-odd"><td><p>LU_NUNPLU</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Pluvioestacional - no protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>LU_NPRMON</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Siempre verde andino Montano - protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-odd"><td><p>LU_NUNMON</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Siempre verde andino Montano - no protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>LU_NPRPIE</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Siempre verde andino Pie montano - protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-odd"><td><p>LU_NUNPIE</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Siempre verde andino Pie montano - no protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>LU_NPRCEJ</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Siempre verde andino de Ceja Andina - protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-odd"><td><p>LU_NUNCEJ</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Siempre verde andino de Ceja Andina - no protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>LU_NPRAMA</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Siempre verde de tierras bajas de la Amazonía - protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-odd"><td><p>LU_NUNAMA</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Siempre verde de tierras bajas de la Amazonía - no protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>LU_NPRCHO</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Siempre verde de tierras bajas del Chocó - protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-odd"><td><p>LU_NUNCHO</p></td>
+<td><ol class="upperalpha simple" start="2">
+<li><p>Siempre verde de tierras bajas del Chocó - no protegido</p></li>
+</ol>
+</td>
+</tr>
+<tr class="row-even"><td><p>LU_RAR</p></td>
+<td><p>Área restaurada</p></td>
+</tr>
+<tr class="row-odd"><td><p>LU_PLA</p></td>
+<td><p>Plantación forestal</p></td>
+</tr>
+<tr class="row-even"><td><p>LU_NPRMAN</p></td>
+<td><p>Manglar - protegido</p></td>
+</tr>
+<tr class="row-odd"><td><p>LU_NUNMAN</p></td>
+<td><p>Manglar - no protegido</p></td>
+</tr>
+<tr class="row-even"><td><p>LU_NPRMOR</p></td>
+<td><p>Moretal - protegido</p></td>
+</tr>
+<tr class="row-odd"><td><p>LU_NUNMOR</p></td>
+<td><p>Moretal - no protegido</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 
 
