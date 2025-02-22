@@ -1,0 +1,1798 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='ECUOutput' inline='true' name='federated.0d6nlbf1ll4z7b1gugdv816ua48s' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ECUOutput' name='textscan.1xcf1ij1wqacsl15tal221qgbvff'>
+            <connection class='textscan' directory='Data/AGR_20241205' filename='ECUOutput.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1xcf1ij1wqacsl15tal221qgbvff' name='ECUOutput.csv' table='[ECUOutput#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Strategy' ordinal='0' />
+            <column datatype='integer' name='Future.ID' ordinal='1' />
+            <column datatype='string' name='Fuel' ordinal='2' />
+            <column datatype='string' name='Technology' ordinal='3' />
+            <column datatype='string' name='Emission' ordinal='4' />
+            <column datatype='integer' name='Year' ordinal='5' />
+            <column datatype='string' name='Demand' ordinal='6' />
+            <column datatype='string' name='NewCapacity' ordinal='7' />
+            <column datatype='string' name='AccumulatedNewCapacity' ordinal='8' />
+            <column datatype='string' name='TotalCapacityAnnual' ordinal='9' />
+            <column datatype='string' name='TotalTechnologyAnnualActivity' ordinal='10' />
+            <column datatype='real' name='ProductionByTechnology' ordinal='11' />
+            <column datatype='real' name='UseByTechnology' ordinal='12' />
+            <column datatype='string' name='CapitalInvestment' ordinal='13' />
+            <column datatype='string' name='DiscountedCapitalInvestment' ordinal='14' />
+            <column datatype='string' name='SalvageValue' ordinal='15' />
+            <column datatype='string' name='DiscountedSalvageValue' ordinal='16' />
+            <column datatype='string' name='OperatingCost' ordinal='17' />
+            <column datatype='string' name='DiscountedOperatingCost' ordinal='18' />
+            <column datatype='string' name='AnnualVariableOperatingCost' ordinal='19' />
+            <column datatype='string' name='AnnualFixedOperatingCost' ordinal='20' />
+            <column datatype='string' name='TotalDiscountedCostByTechnology' ordinal='21' />
+            <column datatype='string' name='TotalDiscountedCost' ordinal='22' />
+            <column datatype='real' name='AnnualTechnologyEmission' ordinal='23' />
+            <column datatype='string' name='AnnualTechnologyEmissionPenaltyByEmission' ordinal='24' />
+            <column datatype='string' name='AnnualTechnologyEmissionsPenalty' ordinal='25' />
+            <column datatype='string' name='DiscountedTechnologyEmissionsPenalty' ordinal='26' />
+            <column datatype='string' name='AnnualEmissions' ordinal='27' />
+            <column datatype='string' name='DistanceDriven' ordinal='28' />
+            <column datatype='string' name='Fleet' ordinal='29' />
+            <column datatype='string' name='NewFleet' ordinal='30' />
+            <column datatype='string' name='ProducedMobility' ordinal='31' />
+            <column datatype='string' name='FilterFuelType' ordinal='32' />
+            <column datatype='string' name='FilterVehicleType' ordinal='33' />
+            <column datatype='string' name='Capex2025' ordinal='34' />
+            <column datatype='string' name='FixedOpex2025' ordinal='35' />
+            <column datatype='string' name='VarOpex2025' ordinal='36' />
+            <column datatype='string' name='Opex2025' ordinal='37' />
+            <column datatype='string' name='Externalities2025' ordinal='38' />
+            <column datatype='string' name='Capex_GDP' ordinal='39' />
+            <column datatype='string' name='FixedOpex_GDP' ordinal='40' />
+            <column datatype='string' name='VarOpex_GDP' ordinal='41' />
+            <column datatype='string' name='Opex_GDP' ordinal='42' />
+            <column datatype='string' name='Externalities_GDP' ordinal='43' />
+            <column datatype='string' name='Sector' ordinal='44' />
+            <column datatype='string' name='Description' ordinal='45' />
+            <column datatype='string' name='SpecificSector' ordinal='46' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1xcf1ij1wqacsl15tal221qgbvff' name='ECUOutput.csv' table='[ECUOutput#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Strategy' ordinal='0' />
+            <column datatype='integer' name='Future.ID' ordinal='1' />
+            <column datatype='string' name='Fuel' ordinal='2' />
+            <column datatype='string' name='Technology' ordinal='3' />
+            <column datatype='string' name='Emission' ordinal='4' />
+            <column datatype='integer' name='Year' ordinal='5' />
+            <column datatype='string' name='Demand' ordinal='6' />
+            <column datatype='string' name='NewCapacity' ordinal='7' />
+            <column datatype='string' name='AccumulatedNewCapacity' ordinal='8' />
+            <column datatype='string' name='TotalCapacityAnnual' ordinal='9' />
+            <column datatype='string' name='TotalTechnologyAnnualActivity' ordinal='10' />
+            <column datatype='real' name='ProductionByTechnology' ordinal='11' />
+            <column datatype='real' name='UseByTechnology' ordinal='12' />
+            <column datatype='string' name='CapitalInvestment' ordinal='13' />
+            <column datatype='string' name='DiscountedCapitalInvestment' ordinal='14' />
+            <column datatype='string' name='SalvageValue' ordinal='15' />
+            <column datatype='string' name='DiscountedSalvageValue' ordinal='16' />
+            <column datatype='string' name='OperatingCost' ordinal='17' />
+            <column datatype='string' name='DiscountedOperatingCost' ordinal='18' />
+            <column datatype='string' name='AnnualVariableOperatingCost' ordinal='19' />
+            <column datatype='string' name='AnnualFixedOperatingCost' ordinal='20' />
+            <column datatype='string' name='TotalDiscountedCostByTechnology' ordinal='21' />
+            <column datatype='string' name='TotalDiscountedCost' ordinal='22' />
+            <column datatype='real' name='AnnualTechnologyEmission' ordinal='23' />
+            <column datatype='string' name='AnnualTechnologyEmissionPenaltyByEmission' ordinal='24' />
+            <column datatype='string' name='AnnualTechnologyEmissionsPenalty' ordinal='25' />
+            <column datatype='string' name='DiscountedTechnologyEmissionsPenalty' ordinal='26' />
+            <column datatype='string' name='AnnualEmissions' ordinal='27' />
+            <column datatype='string' name='DistanceDriven' ordinal='28' />
+            <column datatype='string' name='Fleet' ordinal='29' />
+            <column datatype='string' name='NewFleet' ordinal='30' />
+            <column datatype='string' name='ProducedMobility' ordinal='31' />
+            <column datatype='string' name='FilterFuelType' ordinal='32' />
+            <column datatype='string' name='FilterVehicleType' ordinal='33' />
+            <column datatype='string' name='Capex2025' ordinal='34' />
+            <column datatype='string' name='FixedOpex2025' ordinal='35' />
+            <column datatype='string' name='VarOpex2025' ordinal='36' />
+            <column datatype='string' name='Opex2025' ordinal='37' />
+            <column datatype='string' name='Externalities2025' ordinal='38' />
+            <column datatype='string' name='Capex_GDP' ordinal='39' />
+            <column datatype='string' name='FixedOpex_GDP' ordinal='40' />
+            <column datatype='string' name='VarOpex_GDP' ordinal='41' />
+            <column datatype='string' name='Opex_GDP' ordinal='42' />
+            <column datatype='string' name='Externalities_GDP' ordinal='43' />
+            <column datatype='string' name='Sector' ordinal='44' />
+            <column datatype='string' name='Description' ordinal='45' />
+            <column datatype='string' name='SpecificSector' ordinal='46' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Strategy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Strategy]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Strategy</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Future.ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Future.ID]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Future.ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fuel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fuel]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Fuel</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Technology</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Technology]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Technology</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Emission</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Emission]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Emission</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Demand</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Demand]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Demand</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NewCapacity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NewCapacity]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>NewCapacity</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccumulatedNewCapacity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AccumulatedNewCapacity]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>AccumulatedNewCapacity</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalCapacityAnnual</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalCapacityAnnual]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>TotalCapacityAnnual</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalTechnologyAnnualActivity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalTechnologyAnnualActivity]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>TotalTechnologyAnnualActivity</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProductionByTechnology</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ProductionByTechnology]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>ProductionByTechnology</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UseByTechnology</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[UseByTechnology]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>UseByTechnology</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CapitalInvestment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CapitalInvestment]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>CapitalInvestment</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiscountedCapitalInvestment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DiscountedCapitalInvestment]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>DiscountedCapitalInvestment</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SalvageValue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SalvageValue]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>SalvageValue</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiscountedSalvageValue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DiscountedSalvageValue]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>DiscountedSalvageValue</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OperatingCost</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OperatingCost]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>OperatingCost</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiscountedOperatingCost</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DiscountedOperatingCost]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>DiscountedOperatingCost</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AnnualVariableOperatingCost</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AnnualVariableOperatingCost]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>AnnualVariableOperatingCost</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AnnualFixedOperatingCost</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AnnualFixedOperatingCost]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>AnnualFixedOperatingCost</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalDiscountedCostByTechnology</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalDiscountedCostByTechnology]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>TotalDiscountedCostByTechnology</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalDiscountedCost</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalDiscountedCost]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>TotalDiscountedCost</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AnnualTechnologyEmission</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AnnualTechnologyEmission]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>AnnualTechnologyEmission</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AnnualTechnologyEmissionPenaltyByEmission</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AnnualTechnologyEmissionPenaltyByEmission]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>AnnualTechnologyEmissionPenaltyByEmission</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AnnualTechnologyEmissionsPenalty</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AnnualTechnologyEmissionsPenalty]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>AnnualTechnologyEmissionsPenalty</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiscountedTechnologyEmissionsPenalty</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DiscountedTechnologyEmissionsPenalty]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>DiscountedTechnologyEmissionsPenalty</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AnnualEmissions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AnnualEmissions]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>AnnualEmissions</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DistanceDriven</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DistanceDriven]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>DistanceDriven</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fleet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fleet]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Fleet</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NewFleet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NewFleet]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>NewFleet</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProducedMobility</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ProducedMobility]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>ProducedMobility</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FilterFuelType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FilterFuelType]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>FilterFuelType</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FilterVehicleType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FilterVehicleType]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>FilterVehicleType</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capex2025</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Capex2025]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Capex2025</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FixedOpex2025</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FixedOpex2025]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>FixedOpex2025</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VarOpex2025</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VarOpex2025]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>VarOpex2025</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opex2025</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Opex2025]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Opex2025</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Externalities2025</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Externalities2025]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Externalities2025</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capex_GDP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Capex_GDP]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Capex_GDP</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FixedOpex_GDP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FixedOpex_GDP]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>FixedOpex_GDP</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VarOpex_GDP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VarOpex_GDP]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>VarOpex_GDP</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opex_GDP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Opex_GDP]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Opex_GDP</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Externalities_GDP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Externalities_GDP]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Externalities_GDP</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sector</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sector]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Sector</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Description]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>Description</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SpecificSector</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SpecificSector]</local-name>
+            <parent-name>[ECUOutput.csv]</parent-name>
+            <remote-alias>SpecificSector</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Accumulated New Capacity' datatype='string' name='[AccumulatedNewCapacity]' role='dimension' type='nominal' />
+      <column caption='Annual Emissions' datatype='string' name='[AnnualEmissions]' role='dimension' type='nominal' />
+      <column caption='Annual Fixed Operating Cost' datatype='string' name='[AnnualFixedOperatingCost]' role='dimension' type='nominal' />
+      <column caption='Annual Technology Emission Penalty By Emission' datatype='string' name='[AnnualTechnologyEmissionPenaltyByEmission]' role='dimension' type='nominal' />
+      <column caption='Annual Technology Emission' datatype='real' name='[AnnualTechnologyEmission]' role='measure' type='quantitative' />
+      <column caption='Annual Technology Emissions Penalty' datatype='string' name='[AnnualTechnologyEmissionsPenalty]' role='dimension' type='nominal' />
+      <column caption='Annual Variable Operating Cost' datatype='string' name='[AnnualVariableOperatingCost]' role='dimension' type='nominal' />
+      <column caption='Capex GDP' datatype='string' name='[Capex_GDP]' role='dimension' type='nominal' />
+      <column caption='Capital Investment' datatype='string' name='[CapitalInvestment]' role='dimension' type='nominal' />
+      <column caption='Discounted Capital Investment' datatype='string' name='[DiscountedCapitalInvestment]' role='dimension' type='nominal' />
+      <column caption='Discounted Operating Cost' datatype='string' name='[DiscountedOperatingCost]' role='dimension' type='nominal' />
+      <column caption='Discounted Salvage Value' datatype='string' name='[DiscountedSalvageValue]' role='dimension' type='nominal' />
+      <column caption='Discounted Technology Emissions Penalty' datatype='string' name='[DiscountedTechnologyEmissionsPenalty]' role='dimension' type='nominal' />
+      <column caption='Distance Driven' datatype='string' name='[DistanceDriven]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Emission]' role='dimension' type='nominal' />
+      <column caption='Externalities GDP' datatype='string' name='[Externalities_GDP]' role='dimension' type='nominal' />
+      <column caption='Filter Fuel Type' datatype='string' name='[FilterFuelType]' role='dimension' type='nominal' />
+      <column caption='Filter Vehicle Type' datatype='string' name='[FilterVehicleType]' role='dimension' type='nominal' />
+      <column caption='FixedOpex GDP' datatype='string' name='[FixedOpex_GDP]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Future.ID]' role='dimension' type='ordinal' />
+      <column caption='New Capacity' datatype='string' name='[NewCapacity]' role='dimension' type='nominal' />
+      <column caption='New Fleet' datatype='string' name='[NewFleet]' role='dimension' type='nominal' />
+      <column caption='Operating Cost' datatype='string' name='[OperatingCost]' role='dimension' type='nominal' />
+      <column caption='Opex GDP' datatype='string' name='[Opex_GDP]' role='dimension' type='nominal' />
+      <column caption='Produced Mobility' datatype='string' name='[ProducedMobility]' role='dimension' type='nominal' />
+      <column caption='Production By Technology' datatype='real' name='[ProductionByTechnology]' role='measure' type='quantitative' />
+      <column caption='Salvage Value' datatype='string' name='[SalvageValue]' role='dimension' type='nominal' />
+      <column caption='Specific Sector' datatype='string' name='[SpecificSector]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Technology]' role='dimension' type='nominal' />
+      <column caption='Total Capacity Annual' datatype='string' name='[TotalCapacityAnnual]' role='dimension' type='nominal' />
+      <column caption='Total Discounted Cost By Technology' datatype='string' name='[TotalDiscountedCostByTechnology]' role='dimension' type='nominal' />
+      <column caption='Total Discounted Cost' datatype='string' name='[TotalDiscountedCost]' role='dimension' type='nominal' />
+      <column caption='Total Technology Annual Activity' datatype='string' name='[TotalTechnologyAnnualActivity]' role='dimension' type='nominal' />
+      <column caption='Use By Technology' datatype='real' name='[UseByTechnology]' role='measure' type='quantitative' />
+      <column caption='VarOpex GDP' datatype='string' name='[VarOpex_GDP]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='ECUOutput.csv' datatype='table' name='[__tableau_internal_object_id__].[ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB]' role='measure' type='quantitative' />
+      <column-instance column='[Emission]' derivation='None' name='[none:Emission:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Technology]' derivation='None' name='[none:Technology:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Emission:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;CO2e_AGR_DIR&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CO2e_ENC&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;CO2e_BIO&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;CO2e_GAN_GEI&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;CO2e_GAN_GE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CO2e_URE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CO2e_ARR&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;CO2e_GAN_FERM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CO2e_AGR_IND&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;EXT_REGAIR&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;CO2e_GAN_GED&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Technology:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;AG_MAI&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;T5CBRGAN&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;AG_ARR&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AG_COF&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AG_SUG&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;T5PATGAN&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AG_PAF&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;T5CERGAN&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AG_FLO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;T5BUFGAN&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;T5BOVLECGAN&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AG_BAN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;T5BOVCREGAN&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AG_FRT&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;T5CABGAN&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;AG_TUB&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;AG_VEG&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;T5BOVGAN&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;T5BOVVACGAN&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;AG_PAL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;T5MULGAN&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AG_LEG&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;T5CAMGAN&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AG_CER&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;LU_CROP&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;T5AVEGAN&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;AG_SOY&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;T5OVEGAN&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AG_COC&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ECUOutput.csv' id='ECUOutput.csv_2720A3CCD9CA43DCA15A0AE9C878FAAB'>
+            <properties context=''>
+              <relation connection='textscan.1xcf1ij1wqacsl15tal221qgbvff' name='ECUOutput.csv' table='[ECUOutput#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Strategy' ordinal='0' />
+                  <column datatype='integer' name='Future.ID' ordinal='1' />
+                  <column datatype='string' name='Fuel' ordinal='2' />
+                  <column datatype='string' name='Technology' ordinal='3' />
+                  <column datatype='string' name='Emission' ordinal='4' />
+                  <column datatype='integer' name='Year' ordinal='5' />
+                  <column datatype='string' name='Demand' ordinal='6' />
+                  <column datatype='string' name='NewCapacity' ordinal='7' />
+                  <column datatype='string' name='AccumulatedNewCapacity' ordinal='8' />
+                  <column datatype='string' name='TotalCapacityAnnual' ordinal='9' />
+                  <column datatype='string' name='TotalTechnologyAnnualActivity' ordinal='10' />
+                  <column datatype='real' name='ProductionByTechnology' ordinal='11' />
+                  <column datatype='real' name='UseByTechnology' ordinal='12' />
+                  <column datatype='string' name='CapitalInvestment' ordinal='13' />
+                  <column datatype='string' name='DiscountedCapitalInvestment' ordinal='14' />
+                  <column datatype='string' name='SalvageValue' ordinal='15' />
+                  <column datatype='string' name='DiscountedSalvageValue' ordinal='16' />
+                  <column datatype='string' name='OperatingCost' ordinal='17' />
+                  <column datatype='string' name='DiscountedOperatingCost' ordinal='18' />
+                  <column datatype='string' name='AnnualVariableOperatingCost' ordinal='19' />
+                  <column datatype='string' name='AnnualFixedOperatingCost' ordinal='20' />
+                  <column datatype='string' name='TotalDiscountedCostByTechnology' ordinal='21' />
+                  <column datatype='string' name='TotalDiscountedCost' ordinal='22' />
+                  <column datatype='real' name='AnnualTechnologyEmission' ordinal='23' />
+                  <column datatype='string' name='AnnualTechnologyEmissionPenaltyByEmission' ordinal='24' />
+                  <column datatype='string' name='AnnualTechnologyEmissionsPenalty' ordinal='25' />
+                  <column datatype='string' name='DiscountedTechnologyEmissionsPenalty' ordinal='26' />
+                  <column datatype='string' name='AnnualEmissions' ordinal='27' />
+                  <column datatype='string' name='DistanceDriven' ordinal='28' />
+                  <column datatype='string' name='Fleet' ordinal='29' />
+                  <column datatype='string' name='NewFleet' ordinal='30' />
+                  <column datatype='string' name='ProducedMobility' ordinal='31' />
+                  <column datatype='string' name='FilterFuelType' ordinal='32' />
+                  <column datatype='string' name='FilterVehicleType' ordinal='33' />
+                  <column datatype='string' name='Capex2025' ordinal='34' />
+                  <column datatype='string' name='FixedOpex2025' ordinal='35' />
+                  <column datatype='string' name='VarOpex2025' ordinal='36' />
+                  <column datatype='string' name='Opex2025' ordinal='37' />
+                  <column datatype='string' name='Externalities2025' ordinal='38' />
+                  <column datatype='string' name='Capex_GDP' ordinal='39' />
+                  <column datatype='string' name='FixedOpex_GDP' ordinal='40' />
+                  <column datatype='string' name='VarOpex_GDP' ordinal='41' />
+                  <column datatype='string' name='Opex_GDP' ordinal='42' />
+                  <column datatype='string' name='Externalities_GDP' ordinal='43' />
+                  <column datatype='string' name='Sector' ordinal='44' />
+                  <column datatype='string' name='Description' ordinal='45' />
+                  <column datatype='string' name='SpecificSector' ordinal='46' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Emisiones totales'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ECUOutput' name='federated.0d6nlbf1ll4z7b1gugdv816ua48s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d6nlbf1ll4z7b1gugdv816ua48s'>
+            <column caption='Annual Technology Emission' datatype='real' name='[AnnualTechnologyEmission]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Strategy]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Technology]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Strategy]' derivation='None' name='[none:Strategy:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Technology]' derivation='None' name='[none:Technology:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[AnnualTechnologyEmission]' derivation='Sum' name='[sum:AnnualTechnologyEmission:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;GA_BOV&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;GA_BOVCRE&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;GA_BOVVAC&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;GA_BUF&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;GA_PAT&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPARR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPAVE&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPBAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPBOV&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPBOVLEC&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCAB&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCAM&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCBR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCER&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCOC&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCOF&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPFRT&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPLEG&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPMAI&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPMUL&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPOVE&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPPAL&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPPOR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPSOY&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPSUG&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPTUB&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPVEG&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;LU_CROP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;LU_PAS&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;SOIALL&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5ARRAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5ARRAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5AVEGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BANAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BANAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVCREGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVLECGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVLECGANEXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVVACGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BUFGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CABGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CAMGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CBRGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CERAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CERAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CERGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5COCAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5COFAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5COFAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5FLOAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5FRTAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5FRTAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5LEGAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5LEGAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5MAIAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5MAIAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5MULGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5OVEGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PAFAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PAFAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PALAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PALAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PATGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5SOYAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5SUGAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5SUGAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5TUBAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5TUBAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5VEGAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5VEGAGREXP&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:AnnualTechnologyEmission:qk]' value='33' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Year:ok]' value='38' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='text-format' id='refline0' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Strategy:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:AnnualTechnologyEmission:qk]</rows>
+        <cols>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{BF480733-19BD-4C69-B115-3541CF9A9649}' />
+    </worksheet>
+    <worksheet name='Emisiones_por_Emision'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ECUOutput' name='federated.0d6nlbf1ll4z7b1gugdv816ua48s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d6nlbf1ll4z7b1gugdv816ua48s'>
+            <column caption='Annual Technology Emission' datatype='real' name='[AnnualTechnologyEmission]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Emission]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Strategy]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Technology]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Emission]' derivation='None' name='[none:Emission:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Strategy]' derivation='None' name='[none:Strategy:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Technology]' derivation='None' name='[none:Technology:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[AnnualTechnologyEmission]' derivation='Sum' name='[sum:AnnualTechnologyEmission:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Emission:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_AGR_DIR&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_AGR_IND&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_ARR&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_BIO&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_ENC&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_GAN_FERM&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_GAN_GE&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_GAN_GED&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_GAN_GEI&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_URE&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Emission:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%null%</bucket>
+              <bucket>&quot;CO2e_GAN_FERM&quot;</bucket>
+              <bucket>&quot;CO2e_GAN_GE&quot;</bucket>
+              <bucket>&quot;CO2e_GAN_GED&quot;</bucket>
+              <bucket>&quot;CO2e_GAN_GEI&quot;</bucket>
+              <bucket>&quot;CO2e_AGR_DIR&quot;</bucket>
+              <bucket>&quot;CO2e_AGR_IND&quot;</bucket>
+              <bucket>&quot;CO2e_ENC&quot;</bucket>
+              <bucket>&quot;CO2e_URE&quot;</bucket>
+              <bucket>&quot;CO2e_ARR&quot;</bucket>
+              <bucket>&quot;CO2e_BIO&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;GA_BOV&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;GA_BOVCRE&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;GA_BOVVAC&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;GA_BUF&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;GA_PAT&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPARR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPAVE&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPBAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPBOV&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPBOVLEC&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCAB&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCAM&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCBR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCER&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCOC&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPCOF&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPFRT&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPLEG&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPMAI&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPMUL&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPOVE&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPPAL&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPPOR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPSOY&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPSUG&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPTUB&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;IMPVEG&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;LU_CROP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;LU_PAS&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;SOIALL&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5ARRAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5ARRAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5AVEGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BANAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BANAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVCREGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVLECGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVLECGANEXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVVACGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BUFGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CABGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CAMGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CBRGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CERAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CERAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CERGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5COCAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5COFAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5COFAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5FLOAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5FRTAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5FRTAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5LEGAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5LEGAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5MAIAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5MAIAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5MULGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5OVEGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PAFAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PAFAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PALAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PALAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PATGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5SOYAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5SUGAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5SUGAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5TUBAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5TUBAGREXP&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5VEGAGR&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5VEGAGREXP&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Emission:nk]</column>
+            <column>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:AnnualTechnologyEmission:qk]' value='10' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Year:ok]' value='42' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='text-format' id='refline0' value='n#,##0.000;-#,##0.000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Emission:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:AnnualTechnologyEmission:qk]' enable-instant-analytics='true' formula='total' id='refline0' label-type='value' scope='per-cell' value-column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:AnnualTechnologyEmission:qk]' z-order='1' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Strategy:nk] * [federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:AnnualTechnologyEmission:qk])</rows>
+        <cols>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{B55D051C-7DA0-4701-9813-E056ADDF670E}' />
+    </worksheet>
+    <worksheet name='Emisiones_por_Tech'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ECUOutput' name='federated.0d6nlbf1ll4z7b1gugdv816ua48s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d6nlbf1ll4z7b1gugdv816ua48s'>
+            <column caption='Annual Technology Emission' datatype='real' name='[AnnualTechnologyEmission]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Emission]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Strategy]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Technology]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Emission]' derivation='None' name='[none:Emission:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Strategy]' derivation='None' name='[none:Strategy:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Technology]' derivation='None' name='[none:Technology:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[AnnualTechnologyEmission]' derivation='Sum' name='[sum:AnnualTechnologyEmission:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Emission:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_AGR_DIR&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_AGR_IND&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_ARR&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_BIO&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_ENC&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_GAN_FERM&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_GAN_GE&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_GAN_GED&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_GAN_GEI&quot;' />
+              <groupfilter function='member' level='[none:Emission:nk]' member='&quot;CO2e_URE&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Technology:nk]' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%null%</bucket>
+              <bucket>&quot;AG_ARR&quot;</bucket>
+              <bucket>&quot;AG_BAN&quot;</bucket>
+              <bucket>&quot;AG_CER&quot;</bucket>
+              <bucket>&quot;AG_COC&quot;</bucket>
+              <bucket>&quot;AG_COF&quot;</bucket>
+              <bucket>&quot;AG_FLO&quot;</bucket>
+              <bucket>&quot;AG_FRT&quot;</bucket>
+              <bucket>&quot;AG_LEG&quot;</bucket>
+              <bucket>&quot;AG_MAI&quot;</bucket>
+              <bucket>&quot;AG_PAF&quot;</bucket>
+              <bucket>&quot;AG_SOY&quot;</bucket>
+              <bucket>&quot;AG_SUG&quot;</bucket>
+              <bucket>&quot;AG_TUB&quot;</bucket>
+              <bucket>&quot;AG_VEG&quot;</bucket>
+              <bucket>&quot;LU_CROP&quot;</bucket>
+              <bucket>&quot;T5AVEGAN&quot;</bucket>
+              <bucket>&quot;T5BOVCREGAN&quot;</bucket>
+              <bucket>&quot;T5BOVGAN&quot;</bucket>
+              <bucket>&quot;T5BOVLECGAN&quot;</bucket>
+              <bucket>&quot;T5BOVVACGAN&quot;</bucket>
+              <bucket>&quot;T5BUFGAN&quot;</bucket>
+              <bucket>&quot;T5CABGAN&quot;</bucket>
+              <bucket>&quot;T5CAMGAN&quot;</bucket>
+              <bucket>&quot;T5CBRGAN&quot;</bucket>
+              <bucket>&quot;T5CERGAN&quot;</bucket>
+              <bucket>&quot;T5MULGAN&quot;</bucket>
+              <bucket>&quot;T5OVEGAN&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Emission:nk]</column>
+            <column>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:AnnualTechnologyEmission:qk]' value='33' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Year:ok]' value='38' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='text-format' id='refline0' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:AnnualTechnologyEmission:qk]' enable-instant-analytics='true' formula='total' id='refline0' label-type='value' scope='per-cell' value-column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:AnnualTechnologyEmission:qk]' z-order='1' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Strategy:nk] * [federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:AnnualTechnologyEmission:qk])</rows>
+        <cols>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{0962D86E-AB5E-470F-B72B-9E899D847B4D}' />
+    </worksheet>
+    <worksheet name='Prod_AGR'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ECUOutput' name='federated.0d6nlbf1ll4z7b1gugdv816ua48s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d6nlbf1ll4z7b1gugdv816ua48s'>
+            <column caption='Production By Technology' datatype='real' name='[ProductionByTechnology]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Strategy]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Technology]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Strategy]' derivation='None' name='[none:Strategy:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Technology]' derivation='None' name='[none:Technology:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[ProductionByTechnology]' derivation='Sum' name='[sum:ProductionByTechnology:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]'>
+            <groupfilter function='member' level='[none:Technology:nk]' member='&quot;AG_ARR&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Year:ok]' value='36' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Strategy:nk] * [federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:ProductionByTechnology:qk])</rows>
+        <cols>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{11451C68-577D-4369-8C5B-929D8A9C8B73}' />
+    </worksheet>
+    <worksheet name='Prod_GAN'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ECUOutput' name='federated.0d6nlbf1ll4z7b1gugdv816ua48s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d6nlbf1ll4z7b1gugdv816ua48s'>
+            <column caption='Production By Technology' datatype='real' name='[ProductionByTechnology]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Strategy]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Technology]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Strategy]' derivation='None' name='[none:Strategy:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Technology]' derivation='None' name='[none:Technology:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[ProductionByTechnology]' derivation='Sum' name='[sum:ProductionByTechnology:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5AVEGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVCREGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVLECGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BOVVACGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5BUFGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CABGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CAMGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CBRGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5CERGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5MULGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5OVEGAN&quot;' />
+              <groupfilter function='member' level='[none:Technology:nk]' member='&quot;T5PATGAN&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:ProductionByTechnology:qk]' value='33' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Year:ok]' value='37' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Strategy:nk] * [federated.0d6nlbf1ll4z7b1gugdv816ua48s].[sum:ProductionByTechnology:qk])</rows>
+        <cols>[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{26A3F8F2-82E2-4244-AAAC-FAA03EEE953F}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='37'>
+    <window class='worksheet' name='Emisiones_por_Emision'>
+      <cards>
+        <edge name='left'>
+          <strip size='174'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Emission:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CE6E0EF7-40B3-4E5F-A7A1-05CB6493187A}' />
+    </window>
+    <window class='worksheet' name='Emisiones_por_Tech'>
+      <cards>
+        <edge name='left'>
+          <strip size='100'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{00469A71-7C0B-4EE7-85EE-FD03642328CD}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Emisiones totales'>
+      <cards>
+        <edge name='left'>
+          <strip size='100'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Strategy:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B56F0B29-DA86-47D7-B517-2DB8E2D85C20}' />
+    </window>
+    <window class='worksheet' name='Prod_GAN'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7465560B-AB86-4A37-B9E9-0397FCF1AAC2}' />
+    </window>
+    <window class='worksheet' name='Prod_AGR'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d6nlbf1ll4z7b1gugdv816ua48s].[none:Technology:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F30E75F8-B803-4716-89B9-0644D3A789EE}' />
+    </window>
+  </windows>
+</workbook>
