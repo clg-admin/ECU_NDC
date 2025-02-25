@@ -2,16 +2,15 @@
 Escenarios
 ===================================
 
-En lo que respecta al sector Residuos, al igual que en los sectores anteriores, primeramente, se construye un escenario Tendencial. Este escenario pretende reflejar un futuro sin iniciativas NDC con el fin de poder comparar contra cualquier otro escenario que sí poseen iniciativas tomadas bajo el contexto de las NDC en el sector Residuos. Para definir un caso sin iniciativas se utilizan los datos históricos y supuestos del sector presentados en la Tabla 8 y se ajustan para compensar el efecto de las iniciativas NDC cuyo cumplimiento ya ha avanzado, dentro de la información histórica.
+En lo que respecta al sector Residuos, al igual que en los sectores anteriores, primeramente, se construye un escenario Tendencial. Este escenario pretende reflejar un futuro sin iniciativas NDC con el fin de poder comparar contra cualquier otro escenario que sí poseen iniciativas tomadas bajo el contexto de las NDC en el sector Residuos. Para definir un caso sin iniciativas se utilizan los datos históricos y supuestos del sector presentados en la Tabla 19 y se ajustan para compensar el efecto de las iniciativas NDC cuyo cumplimiento ya ha avanzado, dentro de la información histórica.
 La iniciativa que se consideró para este proceso de ajuste, es la iniciativa del escenario Incondicional presente en la 1ra NDC (Gobierno de Ecuador, 2019) cuya descripción es la siguiente:
 
 - Captura activa de metano y generación eléctrica de relleno sanitario de Pichacay, Cuenca (con potencial de reducción de GEI en 2025 de 30 GgCO2e).
 
-El segundo escenario es el escenario Incondicional 2daNDC que incluye 5 iniciativas adicionales para reducir las emisiones del Ecuador. Estas iniciativas incluyen la reducción de la generación de residuos sólidos, el compostaje de residuos orgánicos, la captura de metano a partir de residuos sólidos y el tratamiento de aguas residuales con emisiones reducidas. En la Tabla 10 se detallan de mejor forma las iniciativas mencionadas.
+El segundo escenario es el escenario Incondicional 2daNDC que incluye 5 iniciativas adicionales para reducir las emisiones del Ecuador. Estas iniciativas incluyen la reducción de la generación de residuos sólidos, el compostaje de residuos orgánicos, la captura de metano a partir de residuos sólidos y el tratamiento de aguas residuales con emisiones reducidas. En la Tabla 20 se detallan de mejor forma las iniciativas mencionadas.
 
-*Tabla 9: Descripción de iniciativas del sector Residuos para el escenario Incondicional 2daNDC.*
 
-.. table::
+.. table:: *Tabla 19: Descripción de iniciativas del sector Residuos para el escenario Incondicional 2daNDC.*
    :align: center
 
    +-------------------------------+-------------------------------------------------------------------+-------------------------------------------------+
@@ -33,9 +32,9 @@ El segundo escenario es el escenario Incondicional 2daNDC que incluye 5 iniciati
    | Aguas Residuales Industriales | de las emisiones de metano mediante digestión aeróbica            | Potencial de reducción de emisiones: 8 GgCO2e   |
    +-------------------------------+-------------------------------------------------------------------+-------------------------------------------------+
 
-El tercer escenario corresponde al que se nombró escenario Incondicional y Condicional 2daNDC. Para este escenario se contemplan 6 iniciativas adicionales (11 en total) con respecto al escenario Incondicional 2daNDC como se puede notar en la Tabla 11.
+El tercer escenario corresponde al que se nombró escenario Incondicional y Condicional 2daNDC. Para este escenario se contemplan 6 iniciativas adicionales (11 en total) con respecto al escenario Incondicional 2daNDC como se puede notar en la Tabla 20.
 
-*Tabla 10: Descripción de iniciativas del sector Residuos para el escenario Incondicional y Condicional 2daNDC.*
+*Tabla 20: Descripción de iniciativas del sector Residuos para el escenario Incondicional y Condicional 2daNDC.*
 
 .. table::
    :align: center

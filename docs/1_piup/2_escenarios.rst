@@ -8,11 +8,10 @@ La iniciativa que se consideró para este proceso de ajuste, es la iniciativa de
 
 - Sustituir un porcentaje de Clinker por otras adiciones para la producción de cemento (con potencial de reducción de GEI en 2025 de 130 GgCO2e).
 
-El segundo escenario es el escenario Incondicional 2daNDC que incluye 2 iniciativas adicionales que se están proponiendo en el sector para la segunda NDC para reducir las emisiones del Ecuador. Estas iniciativas incluyen la sustitución adicional de un porcentaje de Clinker por adiciones para la producción de cemento y el seguimiento de las reducciones de consumo de HFC planteado en la enmienda de Kigali que tiene su efecto en las emisiones de la categoría 2F: Uso de Productos como sustitutos para las substancias que agotan la capa de ozono. En la Tabla 9 se detallan de mejor forma las iniciativas mencionadas.
+El segundo escenario es el escenario Incondicional 2daNDC que incluye 2 iniciativas adicionales que se están proponiendo en el sector para la segunda NDC para reducir las emisiones del Ecuador. Estas iniciativas incluyen la sustitución adicional de un porcentaje de Clinker por adiciones para la producción de cemento y el seguimiento de las reducciones de consumo de HFC planteado en la enmienda de Kigali que tiene su efecto en las emisiones de la categoría 2F: Uso de Productos como sustitutos para las substancias que agotan la capa de ozono. En la Tabla 14 se detallan de mejor forma las iniciativas mencionadas.
 
-*Tabla 9: Descripción de iniciativas del sector PIUP para el escenario Incondicional 2daNDC.*
 
-.. table::
+.. table:: *Tabla 14: Descripción de iniciativas del sector PIUP para el escenario Incondicional 2daNDC.*
    :align: center
 
    +---------------------------------------+--------------------------------------------------------------+------------------------------+

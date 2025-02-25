@@ -12,11 +12,10 @@ Los datos de actividad para el escenario Tendencial crecen según las suposicion
 - **Importaciones Agrícolas:** Dependientes de las importaciones de alimentos, bebidas y tabacos, lo que afecta la demanda de producción local.
 - **Uso de Fertilizantes:** Está correlacionado con el crecimiento del PIB sectorial en agricultura, lo que refleja el nivel de insumos necesarios para la actividad agrícola.
 
-Para el escenario Incondicional 2daNDC se tomaron en cuenta 2 iniciativas para reducción de emisiones, las cuales se detallan en la **Tabla 6**.
+Para el escenario Incondicional 2daNDC se tomaron en cuenta 2 iniciativas para reducción de emisiones, las cuales se detallan en la **Tabla 26**.
 
-*Tabla 1. Descripción de iniciativas del sector Agricultura para el escenario Incondicional*
 
-.. list-table::
+.. list-table:: *Tabla 26. Descripción de iniciativas del sector Agricultura para el escenario Incondicional*
    :header-rows: 1
 
    * - Categoría

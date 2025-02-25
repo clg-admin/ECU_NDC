@@ -26,102 +26,98 @@ Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para po
    :width: 100%
    :align: center
 
-   Figura 1. Diagrama de referencia del modelo del sector PIUP.
+   Figura 4. Diagrama de referencia del modelo del sector PIUP.
 
-En las Tablas 1, 2 y 3 se incluye la nomenclatura de los sets Technologies, Commodities y Emission del modelo de la Figura 1.
+En las Tablas 10, 11 y 12 se incluye la nomenclatura de los sets *Technologies*, *Commodities* y *Emission* del modelo de la Figura 4.
 
-*Tabla 1: Tecnologías incluidas en el modelo OSeMOSYS del sector PIUP.*
-
-.. table::
+.. list-table:: Tabla 10: Tecnologías incluidas en el modelo OSeMOSYS del sector PIUP.
+   :header-rows: 1
    :align: center
 
-   +---------------------------------------------------------+---------------------+
-   | Descripción                                             | Código              |
-   +=========================================================+=====================+
-   | Suministro de materia prima para clinker                | RAW_MAT_CLK         |
-   +---------------------------------------------------------+---------------------+
-   | Suministro de materia prima para cemento                | RAW_MAT_CEM         |
-   +---------------------------------------------------------+---------------------+
-   | Clinker importado o almacenado                          | IMP_STOR            |
-   +---------------------------------------------------------+---------------------+
-   | Importación de HFC                                      | IMP_REFR_AC         |
-   +---------------------------------------------------------+---------------------+
-   | Importación de HFC23                                    | IMP_HFC23           |
-   +---------------------------------------------------------+---------------------+
-   | Importación de HFC32                                    | IMP_HFC32           |
-   +---------------------------------------------------------+---------------------+
-   | Importación de HFC125                                   | IMP_HFC125          |
-   +---------------------------------------------------------+---------------------+
-   | Importación de HFC134a                                  | IMP_HFC134a         |
-   +---------------------------------------------------------+---------------------+
-   | Importación de HFC143a                                  | IMP_HFC143a         |
-   +---------------------------------------------------------+---------------------+
-   | Importación de HFC152a                                  | IMP_HFC152a         |
-   +---------------------------------------------------------+---------------------+
-   | Importación de HFC227ea                                 | IMP_HFC227ea        |
-   +---------------------------------------------------------+---------------------+
-   | Otros procesos industriales y uso de productos          | OTHER_IPPU          |
-   +---------------------------------------------------------+---------------------+
-   | Producción de clinker tradicional                       | PROD_CLK_TRAD       |
-   +---------------------------------------------------------+---------------------+
-   | Producción de cemento                                   | PROD_CEM            |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - Producción de cemento                         | T5CEM_PRODIND       |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - HFC                                           | T5REFR_ACIPPU       |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - HFC23                                         | T5HFC23IPPU         |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - HFC32                                         | T5HFC32IPPU         |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - HFC125                                        | T5HFC125IPPU        |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - HFC134a                                       | T5HFC134aIPPU       |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - HFC143a                                       | T5HFC143aIPPU       |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - HFC152a                                       | T5HFC152aIPPU       |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - HFC227ea                                      | T5HFC227eaIPPU      |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - Otros procesos industriales y uso de productos| T5OTHER_IPPUIPPU    |
-   +---------------------------------------------------------+---------------------+
-   | Producción de Cal                                       | LIME_PROD           |
-   +---------------------------------------------------------+---------------------+
-   | Producción de Vidrio                                    | GLASS_PROD          |
-   +---------------------------------------------------------+---------------------+
-   | Cerámica                                                | CERAMICS            |
-   +---------------------------------------------------------+---------------------+
-   | Otros usos de Soda Ash                                  | SODA_ASH            |
-   +---------------------------------------------------------+---------------------+
-   | Producción de Hierro y Acero                            | IRON_STEEL          |
-   +---------------------------------------------------------+---------------------+
-   | Producción de Plomo                                     | LEAD_PROD           |
-   +---------------------------------------------------------+---------------------+
-   | Uso de Lubricantes                                      | LUBRI               |
-   +---------------------------------------------------------+---------------------+
-   | Uso de Ceras de parafina                                | PARAFFIN            |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - Producción de Cal                             | T5LIME_PRODIPPU     |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - Producción de Vidrio                          | T5GLASS_PRODIPPU    |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - Cerámica                                      | T5CERAMICSIPPU      |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - Otros usos de Soda Ash                        | T5SODA_ASHIPPU      |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - Producción de Hierro y Acero                  | T5IRON_STEELIPPU    |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - Producción de Plomo                           | T5LEAD_PRODIPPU     |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - Uso de Lubricantes                            | T5LUBRIIPPU         |
-   +---------------------------------------------------------+---------------------+
-   | Demanda - Uso de Ceras de parafina                      | T5PARAFFINIPPU      |
-   +---------------------------------------------------------+---------------------+
+   * - Descripción
+     - Código
+   * - Suministro de materia prima para clinker
+     - RAW_MAT_CLK
+   * - Suministro de materia prima para cemento
+     - RAW_MAT_CEM
+   * - Clinker importado o almacenado
+     - IMP_STOR
+   * - Importación de HFC
+     - IMP_REFR_AC
+   * - Importación de HFC23
+     - IMP_HFC23
+   * - Importación de HFC32
+     - IMP_HFC32
+   * - Importación de HFC125
+     - IMP_HFC125
+   * - Importación de HFC134a
+     - IMP_HFC134a
+   * - Importación de HFC143a
+     - IMP_HFC143a
+   * - Importación de HFC152a
+     - IMP_HFC152a
+   * - Importación de HFC227ea
+     - IMP_HFC227ea
+   * - Otros procesos industriales y uso de productos
+     - OTHER_IPPU
+   * - Producción de clinker tradicional
+     - PROD_CLK_TRAD
+   * - Producción de cemento
+     - PROD_CEM
+   * - Demanda - Producción de cemento
+     - T5CEM_PRODIND
+   * - Demanda - HFC
+     - T5REFR_ACIPPU
+   * - Demanda - HFC23
+     - T5HFC23IPPU
+   * - Demanda - HFC32
+     - T5HFC32IPPU
+   * - Demanda - HFC125
+     - T5HFC125IPPU
+   * - Demanda - HFC134a
+     - T5HFC134aIPPU
+   * - Demanda - HFC143a
+     - T5HFC143aIPPU
+   * - Demanda - HFC152a
+     - T5HFC152aIPPU
+   * - Demanda - HFC227ea
+     - T5HFC227eaIPPU
+   * - Demanda - Otros procesos industriales y uso de productos
+     - T5OTHER_IPPUIPPU
+   * - Producción de Cal
+     - LIME_PROD
+   * - Producción de Vidrio
+     - GLASS_PROD
+   * - Cerámica
+     - CERAMICS
+   * - Otros usos de Soda Ash
+     - SODA_ASH
+   * - Producción de Hierro y Acero
+     - IRON_STEEL
+   * - Producción de Plomo
+     - LEAD_PROD
+   * - Uso de Lubricantes
+     - LUBRI
+   * - Uso de Ceras de parafina
+     - PARAFFIN
+   * - Demanda - Producción de Cal
+     - T5LIME_PRODIPPU
+   * - Demanda - Producción de Vidrio
+     - T5GLASS_PRODIPPU
+   * - Demanda - Cerámica
+     - T5CERAMICSIPPU
+   * - Demanda - Otros usos de Soda Ash
+     - T5SODA_ASHIPPU
+   * - Demanda - Producción de Hierro y Acero
+     - T5IRON_STEELIPPU
+   * - Demanda - Producción de Plomo
+     - T5LEAD_PRODIPPU
+   * - Demanda - Uso de Lubricantes
+     - T5LUBRIIPPU
+   * - Demanda - Uso de Ceras de parafina
+     - T5PARAFFINIPPU
 
-*Tabla 2: Commodities incluidos en el modelo OSeMOSYS del sector PIUP.*
-
-.. table:: 
+.. table:: Tabla 11: Commodities incluidos en el modelo OSeMOSYS del sector PIUP.
    :align: center
 
    +----------------------------------------------------------+---------------------+
@@ -206,10 +202,7 @@ En las Tablas 1, 2 y 3 se incluye la nomenclatura de los sets Technologies, Comm
    | Demanda - Uso de Ceras de parafina                       | E5IPPUPARAFFIN      |
    +----------------------------------------------------------+---------------------+
 
-
-*Tabla 3: Emisiones incluidas en el modelo OSeMOSYS del sector PIUP.*
-
-.. table::
+.. table:: Tabla 12: Emisiones incluidas en el modelo OSeMOSYS del sector PIUP.
    :align: center
 
    +--------------------------------------------------------------------------+-------------+
@@ -223,3 +216,5 @@ En las Tablas 1, 2 y 3 se incluye la nomenclatura de los sets Technologies, Comm
    | Dióxido de carbono equivalente producido por otros Procesos Industriales | CO2e_IPPU   |
    | y Uso de Productos                                                       |             |
    +--------------------------------------------------------------------------+-------------+
+
+  

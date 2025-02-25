@@ -4,10 +4,9 @@ Estructura del modelo
 
 El sector agrícola analiza la producción de productos alimenticios como frutas, vegetales, hortalizas y productos cárnicos. Este sector registra emisiones de gases como metano (CH4), óxido nitroso (N2O), óxidos de nitrógeno (NOx), monóxido de carbono (CO) y dióxido de carbono (CO2). Las categorías utilizadas se basan en el INGEI de la 5ta Comunicación Nacional (5CN) del Ecuador (MAATE, n.d.).
 
-Categorías del INGEI
----------------------
-*Tabla 1. Categorías del INGEI consideradas en el modelo de agricultura*
-.. list-table:: 
+**Categorías del INGEI**
+
+.. list-table:: Tabla 21. Clasificación de emisiones del sector
    :header-rows: 1
 
    * - Código
@@ -17,13 +16,13 @@ Categorías del INGEI
      - Emisiones de CH4 por fermentación entérica en el ganado doméstico
      - CH4
    * - 3A2
-     - Emisiones de CH4 del gestión de estiércol
+     - Emisiones de CH4 de la gestión de estiércol
      - CH4
    * - 3A2
-     - N2O Emisiones directas de la gestión de estiércol
+     - N2O - Emisiones directas de la gestión de estiércol
      - N2O
    * - 3C6
-     - N2O Emisiones indirectas de la gestión de estiércol
+     - N2O - Emisiones indirectas de la gestión de estiércol
      - N2O
    * - 3C2
      - Encalado: Emisiones anuales de CO2-C de Encalado
@@ -32,10 +31,10 @@ Categorías del INGEI
      - Fertilización de urea: Emisiones anuales de CO2
      - CO2
    * - 3C4
-     - N2O Emisiones Directas de Suelos Agrícolas
+     - N2O - Emisiones directas de suelos agrícolas
      - N2O
    * - 3C5
-     - N2O Emisiones Indirectas de Suelos Agrícolas
+     - N2O - Emisiones indirectas de suelos agrícolas
      - N2O
    * - 3C7
      - Emisiones de CH4 de la producción de arroz
@@ -44,10 +43,10 @@ Categorías del INGEI
      - Emisiones de la quema de biomasa en tierras de cultivo
      - CH4, N2O, NOx, CO
 
-Emisiones
----------
-*Tabla 2. Clasificación de emisiones estimadas en el modelo de agricultura*
-.. list-table:: 
+
+**Emisiones**
+
+.. list-table:: Tabla 22. Clasificación de emisiones estimadas en el modelo de agricultura
    :header-rows: 1
 
    * - Código
@@ -73,10 +72,10 @@ Emisiones
    * - CO2e_ARR
      - Dióxido de carbono equivalente de producción de arroz
 
-Tecnologías
------------
-*Tabla 3. Tecnologías de productos agrícolas incluidas en el modelo de agricultura*
-.. list-table:: 
+
+**Tecnologías**
+
+.. list-table:: Tabla 23. Tecnologías de productos agrícolas incluidas en el modelo de agricultura
    :header-rows: 1
 
    * - Descripción
@@ -112,8 +111,7 @@ Tecnologías
    * - Tierras de cultivo Flores
      - AG_FLO
 
-*Tabla 4. Tecnologías de productos ganaderos incluidas en el modelo de agricultura*
-.. list-table:: 
+.. list-table:: Tabla 24. Tecnologías de productos ganaderos incluidas en el modelo de agricultura
    :header-rows: 1
 
    * - Descripción

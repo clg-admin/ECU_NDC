@@ -27,9 +27,9 @@ El escenario **Incondicional 2da NDC** incluye 17 iniciativas nacionales para re
 - Medidas de eficiencia energética en el sector petrolero, que incluyen el programa OG&EE y el uso de gasolina con etanol.
 - La promoción del uso de transporte público, a través de 3 iniciativas específicas.
 
-En la Tabla 5 se detallan las iniciativas del escenario Incondicional de la 2da NDC.
+En la Tabla 8 se detallan las iniciativas del escenario Incondicional de la 2da NDC.
 
-**Tabla 5. Descripción de iniciativas para el escenario Incondicional de la 2daNDC.**
+*Tabla 8. Descripción de iniciativas para el escenario Incondicional de la 2daNDC.*
 
 +--------------------------------------------+---------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Categoría                                  | Iniciativas                                                   | Descripción                                                                                                                                                                                                                                                         |
@@ -79,9 +79,9 @@ El escenario **Incondicional y Condicional 2daNDC** incluye 17 iniciativas nacio
 - Medidas de eficiencia energética en el sector petrolero, que incluyen el programa OG&EE y el uso de gasolina con etanol.
 - La promoción del uso de transporte público, a través de 3 iniciativas.
 
-En la **Tabla 6** se detallan las iniciativas del escenario Incondicional de la 2da NDC.
+En la **Tabla 9** se detallan las iniciativas del escenario Incondicional de la 2da NDC.
 
-**Tabla 6. Descripción de iniciativas para el escenario Incondicional y Condicional de la 2daNDC**
+*Tabla 9. Descripción de iniciativas para el escenario Incondicional y Condicional de la 2daNDC*
 
 +-------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Categoría                                 | Iniciativa                                                    | Descripción                                                                                                                                                                                                                                                           |

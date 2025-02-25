@@ -2,11 +2,11 @@
 Datos de entrada del modelo
 ===================================
 
-En la **Tabla 5** se presentan las fuentes de información utilizadas para la satisfacción de datos de los parámetros del modelo del sector Agricultura.
+En la **Tabla 25** se presentan las fuentes de información utilizadas para la satisfacción de datos de los parámetros del modelo del sector Agricultura.
 
-*Tabla 1. Categorías del INGEI consideradas en el modelo de agricultura*
 
-.. list-table::
+
+.. list-table:: *Tabla 25. Categorías del INGEI consideradas en el modelo de agricultura*
    :header-rows: 1
 
    * - Dato/Supuesto

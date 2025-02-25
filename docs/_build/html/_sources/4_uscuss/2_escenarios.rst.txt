@@ -14,9 +14,8 @@ Los datos de actividad para el escenario Tendencial están basados en informaci�
 
 El segundo escenario es el Incondicional 2daNDC, que incluye 2 iniciativas adicionales para la reducción de emisiones en Ecuador. Estas iniciativas están enfocadas en la protección de áreas forestales, aumentando las absorciones de carbono y reduciendo la deforestación.
 
-*Tabla 10: Descripción de iniciativas del sector USCUSS para el escenario Incondicional 2daNDC*
 
-.. list-table::
+.. list-table:: *Tabla 30: Descripción de iniciativas del sector USCUSS para el escenario Incondicional 2daNDC*
    :header-rows: 1
 
    * - Iniciativa
@@ -29,11 +28,10 @@ El segundo escenario es el Incondicional 2daNDC, que incluye 2 iniciativas adici
        **Potencial de reducción de emisiones:** 481.9 GgCO2e
 
 
-El tercer escenario, denominado Incondicional y Condicional 2daNDC, contempla 4 iniciativas adicionales (6 en total) con respecto al escenario Incondicional 2daNDC, como se presenta en la **Tabla 11**.
+El tercer escenario, denominado Incondicional y Condicional 2daNDC, contempla 4 iniciativas adicionales (6 en total) con respecto al escenario Incondicional 2daNDC, como se presenta en la **Tabla 31**.
 
-*Tabla 11: Descripción de iniciativas del sector USCUSS para el escenario Incondicional y Condicional 2daNDC*
 
-.. list-table::
+.. list-table:: *Tabla 31: Descripción de iniciativas del sector USCUSS para el escenario Incondicional y Condicional 2daNDC* 
    :header-rows: 1
 
    * - Iniciativa

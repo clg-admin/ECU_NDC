@@ -15,14 +15,14 @@ Otro de los sectores de mitigación estudiados por el IPCC es el sector Residuos
     - **5D1:** Aguas residuales domésticas
     - **5D2:** Aguas residuales industriales
 
-Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para poder representar la actividad y las emisiones anuales de las categorías y subcategorías del sector, así como para facilitar la construcción de varios escenarios basado en iniciativas de disposición adecuada, reducción y tratamiento de residuos sólidos y aguas residuales. De forma simplificada, el modelo que simula el comportamiento del sector residuos sólidos se ilustra en la Figura 2. Por su parte el modelo que representa las aguas residuales se muestra en la Figura 3.
+Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para poder representar la actividad y las emisiones anuales de las categorías y subcategorías del sector, así como para facilitar la construcción de varios escenarios basado en iniciativas de disposición adecuada, reducción y tratamiento de residuos sólidos y aguas residuales. De forma simplificada, el modelo que simula el comportamiento del sector residuos sólidos se ilustra en la Figura 6. Por su parte el modelo que representa las aguas residuales se muestra en la Figura 7.
 
 .. figure:: ../_static/_images/residuos_sol_RSS.png
    :alt: Diagrama del sector 
    :width: 100%
    :align: center
 
-   Figura 2. Diagrama de referencia del modelo del sector Residuos Sólidos.
+   Figura 6. Diagrama de referencia del modelo del sector Residuos Sólidos.
 
 
 .. figure:: ../_static/_images/residuos_aguas_RSS.png
@@ -30,13 +30,12 @@ Basado en lo anterior, se construye un modelo en la herramienta OSeMOSYS para po
    :width: 50%
    :align: center
 
-   Figura 3. Diagrama de referencia del modelo del sector Aguas Residuales.
+   Figura 7. Diagrama de referencia del modelo del sector Aguas Residuales.
 
-En las Tablas 4, 5 y 6 se incluye la nomenclatura de los sets Technologies, Commodities y Emission del modelo de las Figura 2 y 3.
+En las Tablas 15, 16 y 17 se incluye la nomenclatura de los sets Technologies, Commodities y Emission del modelo de las Figura 6 y 7.
 
-*Tabla 4: Tecnologías incluidas en el modelo OSeMOSYS del sector Residuos.*
 
-.. table::
+.. table:: *Tabla 15: Tecnologías incluidas en el modelo OSeMOSYS del sector Residuos.*
    :align: center
 
    +------------------------------------------------------------------------+------------------------+
@@ -107,9 +106,8 @@ En las Tablas 4, 5 y 6 se incluye la nomenclatura de los sets Technologies, Comm
    +------------------------------------------------------------------------+------------------------+
 
 
-*Tabla 5: Commodities incluidos en el modelo OSeMOSYS del sector Residuos.*
 
-.. table::
+.. table:: *Tabla 16: Commodities incluidos en el modelo OSeMOSYS del sector Residuos.*
    :align: center
 
    +------------------------------------------------------------------------+------------------------+
@@ -161,9 +159,8 @@ En las Tablas 4, 5 y 6 se incluye la nomenclatura de los sets Technologies, Comm
    +------------------------------------------------------------------------+------------------------+
 
 
-*Tabla 6: Emisiones incluidas en el modelo OSeMOSYS del sector Residuos.*
 
-.. table:: 
+.. table:: *Tabla 17: Emisiones incluidas en el modelo OSeMOSYS del sector Residuos.*
    :align: center
 
    +-----------------------------------------------------------+-------------+

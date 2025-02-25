@@ -1,12 +1,10 @@
 ===================================
 Estructura del modelo
 ===================================
-El sector USCUSS analiza los cambios de uso de suelo y las emisiones y absorciones de CO2 provenientes de estos cambios, así como las absorciones debido a las áreas forestales protegidas. Las categorías analizadas se encuentran en la **Tabla 7**.
-
-*Tabla 1. Categorías del INGEI consideradas en el modelo de USCUSS*
+El sector USCUSS analiza los cambios de uso de suelo y las emisiones y absorciones de CO2 provenientes de estos cambios, así como las absorciones debido a las áreas forestales protegidas. Las categorías analizadas se encuentran en la **Tabla 27**.
 
 
-.. list-table::
+.. list-table:: *Tabla 27. Categorías del INGEI consideradas en el modelo de USCUSS*
    :header-rows: 1
 
    * - Código
@@ -66,14 +64,14 @@ Las tierras forestales fueron subdivididas según los tipos de bosque, según la
 - Manglar
 - Moretal
 
-Emisiones
+**Emisiones**
+
 El modelo del sector USCUSS únicamente contabiliza emisiones y absorciones de CO2.
 
-Tecnologías
 
-*Tabla 1 Tecnologías de uso de suelo incluidas en el modelo de USCUSS*
+**Tecnologías**
 
-.. list-table::
+.. list-table:: *Tabla 28 Tecnologías de uso de suelo incluidas en el modelo de USCUSS*
    :header-rows: 1
 
    * - Código

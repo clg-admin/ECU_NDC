@@ -7,7 +7,7 @@ primaria de combustibles, su producción, importación y exportación.
 Las categorías utilizadas se basan en el INGEI de la 5ta Comunicación 
 Nacional (5CN) del Ecuador (MAATE, n.d.).
 
-.. list-table:: **Tabla 1. Categorías del INGEI consideradas en el modelo de energía**
+.. list-table:: *Tabla 3. Categorías del INGEI consideradas en el modelo de energía*
    :header-rows: 1
    :widths: 10 30 60
 
@@ -35,20 +35,16 @@ Nacional (5CN) del Ecuador (MAATE, n.d.).
 
 .. image:: ../_static/_images/energia_estructura.png
    :align: center
-   :alt: Figura 1 - Estructura del modelo de energía
+   :alt: Figura2 - Estructura del modelo de energía
 
-**Figura 1. Estructura del modelo de energía**
-
-^^^^^^^^^^^^^^^^^^^^^
-Nomenclatura de códigos
-^^^^^^^^^^^^^^^^^^^^^
-
-"""""""""""""""""""""
-Vectores energéticos
-"""""""""""""""""""""
+*Figura 2. Estructura del modelo de energía*
 
 
-**Tabla 2. Vectores energético incluidos en el modelo de energía**
+
+**Vectores energéticos**
+
+
+*Tabla 4. Vectores energético incluidos en el modelo de energía*
 
 
 +--------------------------------------------------+--------+
@@ -101,12 +97,10 @@ Vectores energéticos
 | Gas asociado                                     | E0GRE  |
 +--------------------------------------------------+--------+
 
-"""""""""""""""""""""
-Emisiones
-"""""""""""""""""""""
+**Emisiones**
 
 
-**Tabla 3. Clasificación de emisiones estimadas en el modelo de energía**
+*Tabla 5. Clasificación de emisiones estimadas en el modelo de energía*
 
 
 +-------------+----------------------------------------------------------------------------+
@@ -151,12 +145,10 @@ Emisiones
 | N2O_FUG     | Óxido nitroso por producción de combustibles fósiles                       |
 +-------------+----------------------------------------------------------------------------+
 
-"""""""""""""""""""""
-Tecnologías
-"""""""""""""""""""""
 
+**Tecnologías**
 
-**Tabla 4. Tecnologías incluidas en el modelo de energía**
+*Tabla 6. Tecnologías incluidas en el modelo de energía*
 
 
 +----------------------------------------------------------------------+---------------+

@@ -2,11 +2,10 @@
 Datos de entrada del modelo
 ===================================
 
-En la Tabla 8 se presentan las fuentes de información utilizadas para la satisfacción de datos de los parámetros del modelo del sector Residuos.
+En la Tabla 18 se presentan las fuentes de información utilizadas para la satisfacción de datos de los parámetros del modelo del sector Residuos.
 
-*Tabla 8: Fuentes de información para parametrizar el sector Residuos.*
 
-.. table::
+.. table:: *Tabla 18: Fuentes de información para parametrizar el sector Residuos.*
    :align: center
 
    +----------------------------------------------------+---------------------------------------------------------+---------------------+

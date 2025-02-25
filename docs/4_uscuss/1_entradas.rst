@@ -2,11 +2,10 @@
 Datos de entrada del modelo
 ===================================
 
-En la **Tabla 5** se presentan las fuentes de información utilizadas para la satisfacción de datos de los parámetros del modelo del sector USCUSS.
+En la **Tabla 29** se presentan las fuentes de información utilizadas para la satisfacción de datos de los parámetros del modelo del sector USCUSS.
 
-*Tabla 5. Fuentes de información para parametrizar el sector USCUSS*
 
-.. list-table::
+.. list-table:: *Tabla 29. Fuentes de información para parametrizar el sector USCUSS*
    :header-rows: 1
 
    * - Dato/Supuesto

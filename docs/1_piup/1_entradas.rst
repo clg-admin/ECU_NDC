@@ -2,12 +2,11 @@
 Datos de entrada del modelo
 ===================================
 
-En la Tabla 7 se presentan las fuentes de información utilizadas para la satisfacción de datos de los parámetros del modelo del sector PIUP.
-
-*Tabla 7: Fuentes de información para parametrizar el sector PIUP.*
+En la Tabla 13 se presentan las fuentes de información utilizadas para la satisfacción de datos de los parámetros del modelo del sector PIUP.
 
 
-.. table::
+
+.. table:: *Tabla 13: Fuentes de información para parametrizar el sector PIUP.*
    :align: center
 
    +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+--------------+
