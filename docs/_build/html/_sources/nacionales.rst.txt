@@ -4,7 +4,7 @@ Emisiones Nacionales NDC
 
 Las Emisiones Nacionales del Ecuador según las medidas analizadas en la NDC se observan en la Figura 1.
 
-.. figure:: ../_static/_images/emisiones_nacionales.png
+.. image:: _static/_images/emisiones_nacionales.png
    :align: center
    :alt: Figura 1 - Emisiones Nacionales NDC
 
