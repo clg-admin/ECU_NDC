@@ -29,3 +29,5 @@ En la Tabla 18 se presentan las fuentes de información utilizadas para la satis
    | subcategorías de aguas residuales                  | de crecimiento anual tomadas en consideración en el     |                     |
    |                                                    | escenario tendencial    del sector PIUP.                | (MAATE, 2024)       |
    +----------------------------------------------------+---------------------------------------------------------+---------------------+
+
+Para acceder a la versión completa de los datos de entrada del sector, consulte el archivo Waste en: https://www.zotero.org/groups/5887609/ecu-ndc/items/5VM9VE46/item-list

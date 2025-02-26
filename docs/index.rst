@@ -39,7 +39,7 @@ Estructura de la Documentación
    Residuos <2_residuos/index>
    Agricultura <3_agricultura/index>
    Uso del Suelo y Cambio de Uso del Suelo (USCUSS) <4_uscuss/index>
-
    Uso del modelo OSeMOSYS-ECU <gettingstarted>
+   Guía de Navegación GitHub <guia>
    Licencia <license>
    Autores <authors>
