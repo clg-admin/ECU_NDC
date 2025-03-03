@@ -29,4 +29,4 @@ En la Tabla 13 se presentan las fuentes de información utilizadas para la satis
    | Trayectoria de emisiones de Refrigeración   | Estimado haciendo uso del escenario tendencial presente en la Hoja de Ruta de la Enmienda de Kigali.                                     |(MPCEIP, 2023)|
    +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 
-Para acceder a la versión completa de los datos de entrada del sector, consulte el archivo PIUP en: https://www.zotero.org/groups/5887609/ecu-ndc/items/5VM9VE46/item-list
+Para acceder a la versión completa de los datos de entrada del sector, consulte el archivo PIUP en: https://github.com/clg-admin/ECU_NDC/tree/main/Data

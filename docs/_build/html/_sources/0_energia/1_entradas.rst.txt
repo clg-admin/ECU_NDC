@@ -47,5 +47,5 @@ de datos de los parámetros del modelo del sector Energía.
        2018-2035 basadas en datos del PLANMICC
      - (MAATE, n.d.)
 
-Para acceder a la versión completa de los datos de entrada del sector, consulte el archivo Energy en: https://www.zotero.org/groups/5887609/ecu-ndc/items/5VM9VE46/item-list
+Para acceder a la versión completa de los datos de entrada del sector, consulte el archivo Energy en: https://github.com/clg-admin/ECU_NDC/tree/main/Data
   
