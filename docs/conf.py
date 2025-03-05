@@ -31,7 +31,7 @@ html_static_path = ['_static']
 # -- GitHub Edit Button ------------------------------------------------------
 html_context = {
     "display_github": True,  # Mostrar "Edit on GitHub"
-    "github_user": "ClimateLeadGroup",  # Tu usuario u organización en GitHub
+    "github_user": "clg-admin",  # Tu usuario u organización en GitHub
     "github_repo": "ECU_NDC",  # Nombre del repositorio
     "github_version": "main",  # Rama en la que está la documentación
     "conf_py_path": "/docs/",  # Ruta dentro del repo donde está config.py
