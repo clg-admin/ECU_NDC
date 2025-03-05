@@ -17,18 +17,16 @@ Este documento cubre la modelización de **cinco sectores clave**:
 ## Estructura de la Documentación
 
 La documentación está organizada en los siguientes apartados:
-
-- [Introducción](https://github.com/clg-admin/ECU_NDC/blob/main/docs/introduccion.rst)
-- [Metodología](https://github.com/clg-admin/ECU_NDC/blob/main/docs/metodologia.rst./docs/metodologia)
-- [Emisiones Nacionales NDC](https://github.com/clg-admin/ECU_NDC/blob/main/docs/nacionales.rst)
-- [Energía](./docs/0_energia/index)
-- [Procesos Industriales y Uso de Productos (PIUP)](https://github.com/clg-admin/ECU_NDC/blob/main/docs/1_piup/index.rst)
-- [Residuos](https://github.com/clg-admin/ECU_NDC/blob/main/docs/2_residuos/index.rst)
-- [Agricultura](https://github.com/clg-admin/ECU_NDC/blob/main/docs/3_agricultura/index.rst)
-- [Uso del Suelo y Cambio de Uso del Suelo (USCUSS)](https://github.com/clg-admin/ECU_NDC/blob/main/docs/4_uscuss/index.rst)
-- [Uso del modelo OSeMOSYS-ECU](https://github.com/clg-admin/ECU_NDC/blob/main/docs/gettingstarted.rst)
-- [Guía de Navegación GitHub](https://github.com/clg-admin/ECU_NDC/blob/main/docs/guia.rst)
-- [Licencia](https://github.com/clg-admin/ECU_NDC/blob/main/docs/license.rst)
-- [Autores](https://github.com/clg-admin/ECU_NDC/blob/main/docs/authors.rst)
-
+1. [Introducción](https://github.com/clg-admin/ECU_NDC/blob/main/docs/introduccion.rst)
+2. [Metodología](https://github.com/clg-admin/ECU_NDC/blob/main/docs/metodologia.rst./docs/metodologia)
+3. [Emisiones Nacionales NDC](https://github.com/clg-admin/ECU_NDC/blob/main/docs/nacionales.rst)
+4. [Energía](./docs/0_energia/index)
+5. [Procesos Industriales y Uso de Productos (PIUP)](https://github.com/clg-admin/ECU_NDC/blob/main/docs/1_piup/index.rst)
+6. [Residuos](https://github.com/clg-admin/ECU_NDC/blob/main/docs/2_residuos/index.rst)
+7. [Agricultura](https://github.com/clg-admin/ECU_NDC/blob/main/docs/3_agricultura/index.rst)
+8. [Uso del Suelo y Cambio de Uso del Suelo (USCUSS)](4_uscuss/index)
+9. [Uso del modelo OSeMOSYS-ECU](https://github.com/clg-admin/ECU_NDC/blob/main/docs/4_uscuss/index.rst)
+10. [Guía de Navegación GitHub](https://github.com/clg-admin/ECU_NDC/blob/main/docs/guia.rst)
+11. [Licencia](https://github.com/clg-admin/ECU_NDC/blob/main/docs/license.rst)
+12. [Autores](https://github.com/clg-admin/ECU_NDC/blob/main/docs/authors.rst)
 ---

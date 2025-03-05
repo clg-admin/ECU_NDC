@@ -13,10 +13,10 @@ Un repositorio de GitHub generalmente tiene la siguiente estructura:
 - **docs/**: Carpeta con la documentación del proyecto (incluir archivos `.rst`).
 - **Agriculture/**: Código fuente del modelo de `Agricultura`.
 - **Energy/**: Código fuente del modelo de `Energía`.
-- **IPPU/**: Código fuente del modelo de `IPPU`.
-- **UTCUTS/**: Código fuente del modelo de `UTCUTS`.
+- **IPPU/**: Código fuente del modelo de Procesos Industriales y Uso de Productos `IPPU`.
+- **UTCUTS/**: Código fuente del modelo de Uso del Suelo y Cambio de Uso del Suelo `USCUS`.
 - **Waste/**: Código fuente del modelo de `Residuos`.
-- **Data/**: Poner explicación de que hay en esta carpeta.
+- **Data/**: Carperta con archivos de datos de entrada de los diferentes modelos sectoriales.
 - **requirements.txt**: Dependencias del proyecto (para poder ejecutar la simulación, son librerías de Python).
 - **.github/**: Configuraciones para CI/CD, plantillas de issues y PRs (únicamente disponible en la PC cuando se clona el repositorio).
 

@@ -30,6 +30,7 @@ Estructura de la Documentación
 .. toctree::
    :maxdepth: 2
    :caption: Estructura de la Documentación
+   :numbered:
 
    Introducción <introduccion>
    Metodología <metodologia>
