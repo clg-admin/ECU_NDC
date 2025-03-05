@@ -27,7 +27,7 @@
   <div class="wy-grid-for-nav">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
 
           
           
@@ -62,7 +62,7 @@
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2980B9" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">ECU_NDC</a>
       </nav>
@@ -74,7 +74,7 @@
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
       <li class="breadcrumb-item active"><span class="section-number">10. </span>Navegación en GitHub</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/guia.rst.txt" rel="nofollow"> View page source</a>
+              <a href="https://github.com/clg-admin/ECU_NDC/blob/main/docs/guia.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul>
   <hr/>
@@ -89,24 +89,26 @@
 <p>Un repositorio de GitHub generalmente tiene la siguiente estructura:</p>
 <ul class="simple">
 <li><p><strong>README.md</strong>: Archivo de bienvenida con una descripción del proyecto.</p></li>
-<li><p><strong>docs/</strong>: Carpeta con la documentación del proyecto (puede incluir archivos <cite>.rst</cite> o <cite>.md</cite>).</p></li>
-<li><p><strong>src/</strong> o <strong>app/</strong>: Código fuente del proyecto.</p></li>
-<li><p><strong>tests/</strong>: Pruebas unitarias o de integración.</p></li>
-<li><p><strong>.github/</strong>: Configuraciones para CI/CD, plantillas de issues y PRs.</p></li>
-<li><p><strong>requirements.txt</strong> o <strong>package.json</strong>: Dependencias del proyecto.</p></li>
-<li><p><strong>.gitignore</strong>: Lista de archivos ignorados en el control de versiones.</p></li>
+<li><p><strong>docs/</strong>: Carpeta con la documentación del proyecto (incluir archivos <cite>.rst</cite>).</p></li>
+<li><p><strong>Agriculture/</strong>: Código fuente del modelo de <cite>Agricultura</cite>.</p></li>
+<li><p><strong>Energy/</strong>: Código fuente del modelo de <cite>Energía</cite>.</p></li>
+<li><p><strong>IPPU/</strong>: Código fuente del modelo de Procesos Industriales y Uso de Productos <cite>IPPU</cite>.</p></li>
+<li><p><strong>UTCUTS/</strong>: Código fuente del modelo de Uso del Suelo y Cambio de Uso del Suelo <cite>USCUS</cite>.</p></li>
+<li><p><strong>Waste/</strong>: Código fuente del modelo de <cite>Residuos</cite>.</p></li>
+<li><p><strong>Data/</strong>: Carperta con archivos de datos de entrada de los diferentes modelos sectoriales.</p></li>
+<li><p><strong>requirements.txt</strong>: Dependencias del proyecto (para poder ejecutar la simulación, son librerías de Python).</p></li>
+<li><p><strong>.github/</strong>: Configuraciones para CI/CD, plantillas de issues y PRs (únicamente disponible en la PC cuando se clona el repositorio).</p></li>
 </ul>
 <p><strong>Cómo Explorar Archivos en GitHub</strong></p>
 <ol class="arabic">
 <li><p><strong>Usar la Barra de Búsqueda</strong>
 - En la página del repositorio, usa la barra de búsqueda para encontrar archivos o directorios específicos.</p></li>
-<li><p><strong>Navegar en las Ramas</strong>
-- GitHub permite cambiar entre ramas usando el botón “main” (o “master”) en la parte superior.</p></li>
 <li><p><strong>Ver el Historial de Cambios</strong>
-- Cada archivo tiene un historial de cambios accesible desde la pestaña “History”.</p></li>
+- Cada archivo tiene un historial de cambios accesible desde la pestaña “History” o en la opción <cite># Commits</cite>, bajo el botón verde <code class="docutils literal notranslate"><span class="pre">&lt;&gt;</span> <span class="pre">Code</span></code>.</p></li>
 <li><p><strong>Descargar el Código</strong>
-- Puedes descargar el repositorio en formato <cite>.zip</cite> o clonarlo con:
-git clone <a class="reference external" href="https://github.com/usuario/repositorio.git">https://github.com/usuario/repositorio.git</a></p></li>
+- Puedes descargar el repositorio en formato <cite>.zip</cite> presionando clic izquierdo el botón verde <code class="docutils literal notranslate"><span class="pre">&lt;&gt;</span> <span class="pre">Code</span></code> y después clic izquierdo en la opción <code class="docutils literal notranslate"><span class="pre">Download</span> <span class="pre">ZIP</span></code>.
+También se puede clonar con el siguiente comando por medio de <cite>Git Bash</cite>:
+git clone <a class="reference external" href="https://github.com/clg-admin/ECU_NDC.git">https://github.com/clg-admin/ECU_NDC.git</a></p></li>
 <li><p><strong>Modelos Sectoriales</strong>
 - El repositorio cuenta con 5 carpetas adicionales dentro de las cuales se encuentra cada modelo sectorial con sus respectivos archivos de entrada, scripts, archivos de salida y resultados graficados. Las carpetas de los modelos sectoriales son:</p>
 <blockquote>
