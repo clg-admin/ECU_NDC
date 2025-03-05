@@ -7,6 +7,7 @@ Contributors
 * |github| `Susana Solórzano Jiménez <https://github.com/Susana-Solorzano-Jimenez>`_
 * |github| `Ignacio Alfaro-Corrales <https://github.com/ignacioalfa>`_
 * |github| `Yoselyn Seas Jiménez <https://github.com/seas-yoselyn>`_
+
 .. |github| image:: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
    :target: https://github.com
    :alt: GitHub

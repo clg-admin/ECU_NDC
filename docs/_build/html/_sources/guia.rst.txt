@@ -37,11 +37,3 @@ Un repositorio de GitHub generalmente tiene la siguiente estructura:
    - Puedes descargar el repositorio en formato `.zip` presionando clic izquierdo el botón verde ``<> Code`` y después clic izquierdo en la opción ``Download ZIP``.
    También se puede clonar con el siguiente comando por medio de `Git Bash`:
    git clone https://github.com/clg-admin/ECU_NDC.git
-
-4. **Modelos Sectoriales**
-   - El repositorio cuenta con 5 carpetas adicionales dentro de las cuales se encuentra cada modelo sectorial con sus respectivos archivos de entrada, scripts, archivos de salida y resultados graficados. Las carpetas de los modelos sectoriales son:
-      - Agriculture
-      - Energy
-      - PIUP
-      - UTCUTS
-      - Waste

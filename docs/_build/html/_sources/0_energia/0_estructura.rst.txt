@@ -1,6 +1,6 @@
----------------------
-Estructura general del modelo
----------------------
+===================================
+Estructura del modelo
+===================================
 
 El sector energético analiza el consumo de energía, considerando la oferta 
 primaria de combustibles, su producción, importación y exportación.  
