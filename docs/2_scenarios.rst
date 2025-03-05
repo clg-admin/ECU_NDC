@@ -1,2 +1,0 @@
-Construcción de escenarios
-==========================
