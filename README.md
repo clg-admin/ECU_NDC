@@ -18,17 +18,17 @@ Este documento cubre la modelización de **cinco sectores clave**:
 
 La documentación está organizada en los siguientes apartados:
 
-- [Introducción](./docs/introduccion)
-- [Metodología](./docs/metodologia)
-- [Emisiones Nacionales NDC](./docs/nacionales)
+- [Introducción](https://github.com/clg-admin/ECU_NDC/blob/main/docs/introduccion.rst)
+- [Metodología](https://github.com/clg-admin/ECU_NDC/blob/main/docs/metodologia.rst./docs/metodologia)
+- [Emisiones Nacionales NDC](https://github.com/clg-admin/ECU_NDC/blob/main/docs/nacionales.rst)
 - [Energía](./docs/0_energia/index)
-- [Procesos Industriales y Uso de Productos (PIUP)](./docs/1_piup/index)
-- [Residuos](./docs/2_residuos/index)
-- [Agricultura](./docs/3_agricultura/index)
-- [Uso del Suelo y Cambio de Uso del Suelo (USCUSS)](./docs/4_uscuss/index)
-- [Uso del modelo OSeMOSYS-ECU](./docs/gettingstarted)
-- [Guía de Navegación GitHub](./docs/guia)
-- [Licencia](./docs/license)
-- [Autores](./docs/authors)
+- [Procesos Industriales y Uso de Productos (PIUP)](https://github.com/clg-admin/ECU_NDC/blob/main/docs/1_piup/index.rst)
+- [Residuos](https://github.com/clg-admin/ECU_NDC/blob/main/docs/2_residuos/index.rst)
+- [Agricultura](https://github.com/clg-admin/ECU_NDC/blob/main/docs/3_agricultura/index.rst)
+- [Uso del Suelo y Cambio de Uso del Suelo (USCUSS)](https://github.com/clg-admin/ECU_NDC/blob/main/docs/4_uscuss/index.rst)
+- [Uso del modelo OSeMOSYS-ECU](https://github.com/clg-admin/ECU_NDC/blob/main/docs/gettingstarted.rst)
+- [Guía de Navegación GitHub](https://github.com/clg-admin/ECU_NDC/blob/main/docs/guia.rst)
+- [Licencia](https://github.com/clg-admin/ECU_NDC/blob/main/docs/license.rst)
+- [Autores](https://github.com/clg-admin/ECU_NDC/blob/main/docs/authors.rst)
 
 ---
