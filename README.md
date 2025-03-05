@@ -18,17 +18,17 @@ Este documento cubre la modelización de **cinco sectores clave**:
 
 La documentación está organizada en los siguientes apartados:
 
-- [Introducción](introduccion)
-- [Metodología](metodologia)
-- [Emisiones Nacionales NDC](nacionales)
-- [Energía](0_energia/index)
-- [Procesos Industriales y Uso de Productos (PIUP)](1_piup/index)
-- [Residuos](2_residuos/index)
-- [Agricultura](3_agricultura/index)
-- [Uso del Suelo y Cambio de Uso del Suelo (USCUSS)](4_uscuss/index)
-- [Uso del modelo OSeMOSYS-ECU](gettingstarted)
-- [Guía de Navegación GitHub](guia)
-- [Licencia](license)
-- [Autores](authors)
+- [Introducción](docs/introduccion)
+- [Metodología](docs/metodologia)
+- [Emisiones Nacionales NDC](docs/nacionales)
+- [Energía](docs/0_energia/index)
+- [Procesos Industriales y Uso de Productos (PIUP)](docs/1_piup/index)
+- [Residuos](docs/2_residuos/index)
+- [Agricultura](docs/3_agricultura/index)
+- [Uso del Suelo y Cambio de Uso del Suelo (USCUSS)](docs/4_uscuss/index)
+- [Uso del modelo OSeMOSYS-ECU](docs/gettingstarted)
+- [Guía de Navegación GitHub](docs/guia)
+- [Licencia](docs/license)
+- [Autores](docs/authors)
 
 ---
