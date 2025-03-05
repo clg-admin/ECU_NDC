@@ -34,7 +34,7 @@ Un repositorio de GitHub generalmente tiene la siguiente estructura:
    - Cada archivo tiene un historial de cambios accesible desde la pestaña "History" o en la opción `# Commits`, bajo el botón verde ``<> Code``.
 
 3. **Descargar el Código**
-   - Puedes descargar el repositorio en formato `.zip` presionando clic izquierdo el botón verde ``<> Code`` y después clic derecho en la opción ``Download ZIP``.
+   - Puedes descargar el repositorio en formato `.zip` presionando clic izquierdo el botón verde ``<> Code`` y después clic izquierdo en la opción ``Download ZIP``.
    También se puede clonar con el siguiente comando por medio de `Git Bash`:
    git clone https://github.com/clg-admin/ECU_NDC.git
 
