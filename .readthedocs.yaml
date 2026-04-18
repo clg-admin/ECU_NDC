@@ -20,7 +20,6 @@ formats:
 python:
   install:
     - requirements: docs/requirements.txt
-    - {path: ., method: pip}
 
 # Set the OS, Python version and other tools you might need
 build:
